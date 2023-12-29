@@ -1,0 +1,57 @@
+
+.mainnn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+.brandsmain{
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: #9d9c9c;
+    margin-top: 5px;
+
+}
+
+.brandsmain h2{
+    font-size: 35px;
+}
+.brandimg{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 50px;
+
+}
+
+
+.brandimg img{
+    height: 186px;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.brandimg img:hover{
+    border: 1px solid #00c3ff;
+}
+.mainnn button{
+
+    border: none;
+    outline: none;
+    background-color:#838383;
+    padding: 10px 30px;
+    border-radius: 5px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #fff;
+
+}
+.mainnn button:hover{
+    background-color: #727171;
+}

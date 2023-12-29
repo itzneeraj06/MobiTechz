@@ -1,0 +1,15 @@
+.slides img{
+    width: 100%;
+
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slides{
+    width: 90%;
+}
+body{
+    background-color: #c0c0c0;
+}

@@ -1,0 +1,36 @@
+.main{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #a3a3a3;
+    
+}
+.toplistheading h2{
+    text-align: center;
+
+}
+.productlist{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+.more{
+    text-align: center;
+}
+.more button{
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: #b6b6b6;
+    
+    
+
+}
+.more button:hover{
+    background-color: #c5c5c5;
+}
