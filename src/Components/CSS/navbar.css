@@ -12,6 +12,7 @@
 
 
 }
+
 .navbar button{
     border: none;
     border-top-right-radius: 5px;
@@ -24,6 +25,8 @@
     margin-left: 15px;
     font-size: 40px;
     font-family: 'Outfit', sans-serif;
+    
+    
 }
 .search{
     display: flex;

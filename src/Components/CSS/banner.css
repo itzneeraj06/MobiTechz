@@ -1,15 +1,22 @@
 .slides img{
-    width: 100%;
+    height: 300px
+   
 
 }
 .slider{
+    width: 100%;
+    height: 370px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    overflow: auto;
 }
 .slides{
-    width: 90%;
 }
 body{
     background-color: #c0c0c0;
 }
+::-webkit-scrollbar {
+     
+ height: 1px;
+    width: 1px;
+}
+

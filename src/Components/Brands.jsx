@@ -8,6 +8,7 @@ import img5 from '../asset/brands5.jpg'
 import img6 from '../asset/brands6.jpg'
 import img7 from '../asset/brands7.jpg'
 import img8 from '../asset/brands8.jpg'
+import { Link } from 'react-router-dom'
 
 
 const Brands = (props) => {
@@ -16,16 +17,14 @@ const Brands = (props) => {
         <div className='brandsmain'>
         <h2>{props.heading}</h2>
         <div className='brandimg'>
-            <img src={img1} alt="" />
-            <img src={img2} alt="" />
-            <img src={img3} alt="" />
-            <img src={img4} alt="" />
-            <img src={img5} alt="" />
-            <img src={img6} alt="" />
-            <img src={img7} alt="" />
-            <img src={img8} alt="" />
-
-
+           <Link to={`/ShopbyBrand/Apple`}> <img src={img1} alt="" /></Link>
+           <Link to={`/ShopbyBrand/Lenovo`}> <img src={img2} alt="" /></Link>
+           <Link to={`/ShopbyBrand/Nokia`}> <img src={img3} alt="" /></Link>
+           <Link to={`/ShopbyBrand/Oneplus`}> <img src={img4} alt="" /></Link>
+           <Link to={`/ShopbyBrand/Oppo`}> <img src={img5} alt="" /></Link>
+           <Link to={`/ShopbyBrand/Vivo`}> <img src={img6} alt="" /></Link>
+           <Link to={`/ShopbyBrand/Xiaomi`}> <img src={img7} alt="" /></Link>
+           <Link to={`/ShopbyBrand/Samsung`}> <img src={img8} alt="" /></Link>
         </div>
         <button>All Brands</button>
     </div>

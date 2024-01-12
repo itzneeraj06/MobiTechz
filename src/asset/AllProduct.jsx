@@ -1,0 +1,285 @@
+let alldata=[
+
+    {
+        id: 1,
+        brand: "Apple",
+        model: "iPhone X",
+        screenSize: "5.8 inches",
+        processor: "A11 Bionic",
+        RAM: "3 GB",
+        storage: "64/256 GB",
+        camera: "Dual 12 MP",
+        battery: "2716 mAh",
+        price:30000
+    },
+    {
+        id: 2,
+        brand: "Apple",
+        model: "iPhone 11",
+        screenSize: "6.1 inches",
+        processor: "A13 Bionic",
+        RAM: "4 GB",
+        storage: "64/128/256 GB",
+        camera: "Dual 12 MP",
+        battery: "3110 mAh",
+        price:100000
+    },
+    {
+        id: 3,
+        brand: "Apple",
+        "model": "iPhone 12",
+        "screenSize": "6.1 inches",
+        "processor": "A14 Bionic",
+        "RAM": "4 GB",
+        "storage": "64/128/256 GB",
+        "camera": "Dual 12 MP",
+        "battery": "2815 mAh",
+        price:40000
+    },
+    {
+        id: 4,
+        brand: "Apple",
+        "model": "iPhone 13",
+        "screenSize": "6.1 inches",
+        "processor": "A15 Bionic",
+        "RAM": "4 GB",
+        "storage": "128/256/512 GB",
+        "camera": "Dual 12 MP",
+        "battery": "unknown",
+        price:50000
+    },
+    {
+        id: 5,
+        brand: "Apple",
+        "model": "iPhone 14",
+        "screenSize": "6.1 inches",
+        "processor": "A16 Bionic",
+        "RAM": "4 GB",
+        "storage": "128/256/512 GB",
+        "camera": "Dual 12 MP",
+        "battery": "unknown",
+        price:60000
+    },
+    {
+        id: 6,
+        brand: "Apple",
+        "model": "iPhone 15",
+        "screenSize": "6.1 inches",
+        "processor": "A17 Bionic",
+        "RAM": "4 GB",
+        "storage": "128/256/512 GB",
+        "camera": "Dual 12 MP",
+        "battery": "unknown",
+        price:100000
+    },
+    {
+        id: 7,
+        brand: "Apple",
+        "model": "iphone 12 mini",
+        "screenSize": "5.4 inches",
+        "processor": "A14 Bionic",
+        "RAM": "4 GB",
+        "storage": "64/128/256 GB",
+        "camera": "Dual 12 MP",
+        "battery": "2227 mAh",
+        price:35000
+    },
+    {
+        id: 8,
+        brand: "Apple",
+        "model": "iphone 13 mini",
+        "screenSize": "5.4 inches",
+        "processor": "A15 Bionic",
+        "RAM": "4 GB",
+        "storage": "128/256/512 GB",
+        "camera": "Dual 12 MP",
+        "battery": "Unknown",
+        price:45000
+
+
+    },
+    {
+        id: 9,
+        brand: "Xiaomi",
+        "model": "Mi 11",
+        "screenSize": "6.81 inches",
+        "processor": "Qualcomm Snapdragon 888",
+        "RAM": "8/12 GB",
+        "storage": "128/256 GB",
+        "camera": "108 MP + 13 MP + 5 MP",
+        "battery": "4600 mAh",
+        price:20000
+    },
+    {
+        id: 10,
+        brand: "Xiaomi",
+        "model": "Redmi Note 10 Pro",
+        "screenSize": "6.67 inches",
+        "processor": "Qualcomm Snapdragon 732G",
+        "RAM": "6/8 GB",
+        "storage": "64/128 GB",
+        "camera": "64 MP + 8 MP + 5 MP + 2 MP",
+        "battery": "5020 mAh",
+        price:20000
+    },
+    {
+        id: 11,
+        brand: "Xiaomi",
+        "model": "Poco X3 Pro",
+        "screenSize": "6.67 inches",
+        "processor": "Qualcomm Snapdragon 860",
+        "RAM": "6/8 GB",
+        "storage": "128/256 GB",
+        "camera": "48 MP + 8 MP + 2 MP + 2 MP",
+        "battery": "5160 mAh",
+        price:250000
+    },
+    {
+        id: 12,
+        brand: "Xiaomi",
+        "model": "Mi 10T Pro",
+        "screenSize": "6.67 inches",
+        "processor": "Qualcomm Snapdragon 865",
+        "RAM": "8 GB",
+        "storage": "128/256 GB",
+        "camera": "108 MP + 13 MP + 5 MP",
+        "battery": "5000 mAh",
+        price:30000
+    },
+    {
+        id: 13,
+        brand: "Xiaomi",
+        "model": "Redmi Note 9 Pro",
+        "screenSize": "6.67 inches",
+        "processor": "Qualcomm Snapdragon 720G",
+        "RAM": "4/6 GB",
+        "storage": "64/128 GB",
+        "camera": "48 MP + 8 MP + 5 MP + 2 MP",
+        "battery": "5020 mAh",
+        price:10000
+    },
+    {
+        id:14,
+        brand: "Samsung",
+        "model": "Galaxy S21 Ultra",
+        "Screen Size": "6.8 inches",
+        "Processor": "Exynos 2100 / Qualcomm Snapdragon 888",
+        "RAM": "12/16 GB",
+        "Storage": "128/256/512 GB",
+        "Camera": "108 MP + 12 MP + 10 MP + 10 MP + 40 MP",
+        "Battery": "5000 mAh",
+        price:100000
+    },
+    {
+        id:15,
+        brand: "Samsung",
+        "model": "Galaxy A52",
+        "Screen Size": "6.5 inches",
+        "Processor": "Qualcomm Snapdragon 720G",
+        "RAM": "6/8 GB",
+        "Storage": "128/256 GB",
+        "Camera": "64 MP + 12 MP + 5 MP + 5 MP",
+        "Battery": "4500 mAh",
+        price:15000
+    },
+
+    {
+        id:16,
+        brand: "Samsung",
+        "model": "Galaxy M51",
+        "Screen Size": "6.7 inches",
+        "Processor": "Qualcomm Snapdragon 730G",
+        "RAM": "6/8 GB",
+        "Storage": "128 GB",
+        "Camera": "64 MP + 12 MP + 5 MP + 5 MP",
+        "Battery": "7000 mAh",
+        price:15000
+    },
+    {
+        id:17,
+        brand: "Samsung",
+        "model": "Galaxy Note 20 Ultra",
+        "Screen Size": "6.9 inches",
+        "Processor": "Exynos 990 / Qualcomm Snapdragon 865+",
+        "RAM": "12 GB",
+        "Storage": "128/256/512 GB",
+        "Camera": "108 MP + 12 MP + 12 MP",
+        "Battery": "4500 mAh",
+        price:120000
+    },
+    {
+        id:18,
+        brand: "Samsung",
+        "model": "Galaxy M32",
+        "Screen Size": "6.4 inches",
+        "Processor": "MediaTek Helio G80",
+        "RAM": "4/6 GB",
+        "Storage": "64/128 GB",
+        "Camera": "64 MP",
+        "Battery": "unknown",
+        price:20000
+
+    },
+    {
+        id:19,
+        brand: "Samsung",
+        "model": "Galaxy S21",
+        "Screen Size": "6.2 inches",
+        "Processor": "Exynos 2100 / Qualcomm Snapdragon 888",
+        "RAM": "8 GB",
+        "Storage": "128/256 GB",
+        "Camera": "64 MP + 12 MP + 12 MP",
+        "Battery": "4000 mAh",
+        price:80000
+      },
+      {
+        id:20,
+        brand: "Samsung",
+        "model": "Galaxy A72",
+        "Screen Size": "6.7 inches",
+        "Processor": "Qualcomm Snapdragon 720G",
+        "RAM": "6/8 GB",
+        "Storage": "128/256 GB",
+        "Camera": "64 MP + 12 MP + 8 MP + 5 MP",
+        "Battery": "5000 mAh",
+        price:20000
+      },
+      {
+        id:20,
+        brand: "Samsung",
+        "model": "Galaxy M12",
+        "Screen Size": "6.5 inches",
+        "Processor": "Exynos 850",
+        "RAM": "3/4/6 GB",
+        "Storage": "32/64/128 GB",
+        "Camera": "48 MP + 5 MP + 2 MP + 2 MP",
+        "Battery": "6000 mAh",
+        price:10000
+      },
+      {
+        id:21,
+        brand: "Samsung",
+        "model": "Galaxy F62",
+        "Screen Size": "6.7 inches",
+        "Processor": "Exynos 9825",
+        "RAM": "6/8 GB",
+        "Storage": "128 GB",
+        "Camera": "64 MP + 12 MP + 5 MP + 5 MP",
+        "Battery": "7000 mAh",
+        price:18000
+      },
+      {
+        id:22,
+        brand: "Samsung",
+        "model": "Galaxy M02s",
+        "Screen Size": "6.5 inches",
+        "Processor": "Qualcomm Snapdragon 450",
+        "RAM": "3/4 GB",
+        "Storage": "32/64 GB",
+        "Camera": "13 MP + 2 MP + 2 MP",
+        "Battery": "5000 mAh",
+        price:10000
+      }
+
+]
+export default alldata;

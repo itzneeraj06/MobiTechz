@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import Home from './Pages/Home';
 import Productdetails from './Components/Productdetails';
+import Fullview from './Components/Fullview';
+import ProductList from './Components/ProductList';
 const router =createBrowserRouter([
   {
     path:"",
@@ -18,9 +20,30 @@ const router =createBrowserRouter([
       {
         path:"/productdetails",
         element:<Productdetails/>
+      },
+      {
+        path:"/Fullview",
+        element:<Fullview/>,
+        children:[
+          {
+            path:":id",
+            element:<Fullview />
+          }
+        ]
+      },
+      {
+        path:"/ShopbyBrand",
+        element:<ProductList/>,
+        children:[
+          {
+            path:":brand",
+            
+            element:<ProductList/>
+          }
+        ]
       }
-    ]
-  },{}
+      ]
+  }
 ])
 
 

@@ -1,9 +1,11 @@
 import './CSS/bestsmartphone.css'
-import Topphone from './Topphone'
+import Topphone from './Topphone.jsx'
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link} from 'react-router-dom'
+import alldata from '../asset/AllProduct'
 
 const Bestsmartphone = (props) => {
+    
 
     return (
 
@@ -14,11 +16,19 @@ const Bestsmartphone = (props) => {
                 <h2>{props.heading}</h2>
             </div>
             <div className="productlist">
-                <Topphone name="Xiaomi Redmi 13C" price="8999/-" />
-                <Topphone name="Poco M6 Pro 5g" price="11299/-" />
-                <Topphone name="Realme C53" price="9279/-" />
-                <Topphone name="Poco C65" price="7947/-" />
-                <Topphone name="Samsung Galaxy A05" price="9999/-" />
+                {
+                    alldata.map((item,i)=>{
+                        if(item.price<=10000)
+                        {
+                            return <Topphone id={item.id} name={item.model} price={item.price}/>
+                                
+                        }
+                        else{return null;} 
+                        }
+                        )
+                }
+             
+
             </div>
             <div className='more'>
                 <Link to='/Productdetails'>more</Link>
