@@ -8,6 +8,7 @@ import Home from './Pages/Home';
 import Productdetails from './Components/Productdetails';
 import Fullview from './Components/Fullview';
 import ProductList from './Components/ProductList';
+import Login from './Components/Login';
 const router =createBrowserRouter([
   {
     path:"",
@@ -41,7 +42,12 @@ const router =createBrowserRouter([
             element:<ProductList/>
           }
         ]
+      },
+      {
+        path:"/Login",
+        element:<Login/>,
       }
+      
       ]
   }
 ])
