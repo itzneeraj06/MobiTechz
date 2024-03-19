@@ -8,6 +8,7 @@ import ProductList from './Components/ProductList';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
 import { Route, Routes } from 'react-router';
+import PrivateRoute from './Logic/PrivateRoute';
 
 function App() {
   const [login, setLogin] = useState(false);
@@ -16,14 +17,16 @@ function App() {
     <div>
       <Navbar login={login} setLogin={setLogin} />
       <Routes>
-        <Route path='/' element={<Home />} />
+
+        <Route path='/' element={<PrivateRoute login={login}><Home/></PrivateRoute>} />
+        <Route path="/productdetails" element={<PrivateRoute login={login}><Productdetails /></PrivateRoute>} />
+        <Route path="/Fullview" element={<PrivateRoute login={login}><p>select a product</p></PrivateRoute>} />
+        <Route path="/Fullview/:id" element={<PrivateRoute login={login}><Fullview /></PrivateRoute>} />
+        <Route path="/ShopbyBrand" element={<PrivateRoute login={login}><ProductList /></PrivateRoute>} />
+        <Route path="/ShopbyBrand/:brand" element={<PrivateRoute login={login}><ProductList /></PrivateRoute>} />
         <Route path='/Login' element={<Login login={login} setLogin={setLogin} />} />
-        <Route path='/signup' element={<Signup setLogin={setLogin}/>}/>
-        <Route path="/productdetails" element={<Productdetails />} />
-        <Route path="/Fullview" element={<p>select a product</p>} />
-        <Route path="/Fullview/:id" element={<Fullview />} />
-        <Route path="/ShopbyBrand" element={<ProductList />} />
-        <Route path="/ShopbyBrand/:brand" element={<ProductList />} />
+        <Route path='/signup' element={<Signup setLogin={setLogin} />} />
+        
       </Routes >
 
     </div>
