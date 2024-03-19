@@ -1,10 +1,22 @@
 import React from 'react'
-
+import Listview from './Listview'
+import alldata from '../asset/AllProduct'
 const Productdetails = () => {
   return (
-    <div>
-      yha product ki list aayegi <br />
-      left side me img then key specs then buy now button 
+    
+      <div className="productlist">
+                {
+                    alldata.map((item,i)=>{
+                        if(item.price<=10000)
+                        {
+                          return <Listview id={item.id} model={item.model} brand={item.brand} price={item.price} />
+                                
+                        }
+                        else{return null;} 
+                        }
+                        )
+                }
+            
     </div>
   )
 }
