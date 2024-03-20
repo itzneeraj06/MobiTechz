@@ -1,6 +1,8 @@
 import React from 'react';
 import './CSS/login.css';
 import { Link, useNavigate } from 'react-router-dom';
+import {toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = ({ login, setLogin }) => {
   const navigate = useNavigate();
@@ -10,7 +12,7 @@ const Login = ({ login, setLogin }) => {
     setLogin(true);
     console.log(login);
     navigate("/");
-    alert("User Login");
+    toast.success("Login Successful");
 
   }
 

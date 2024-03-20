@@ -9,6 +9,7 @@ import Login from './Components/Login';
 import Signup from './Components/Signup';
 import { Route, Routes } from 'react-router';
 import PrivateRoute from './Logic/PrivateRoute';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   const [login, setLogin] = useState(false);
@@ -28,6 +29,18 @@ function App() {
         <Route path='/signup' element={<Signup setLogin={setLogin} />} />
         
       </Routes >
+      <ToastContainer
+        position="top-center"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light" />
+
 
     </div>
 
