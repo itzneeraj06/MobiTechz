@@ -6,9 +6,6 @@
     align-items: center;
 
 }
-
-.navbar img {}
-
 .navbar button {
     border: none;
     background-color: transparent;
@@ -95,25 +92,6 @@
     background-color: transparent;
 }
 
-@media(max-width: 700px) {
-    .search {
-        display: none;
-    }
-}
-
-@media(max-width: 450px) {
-    #nav-heading {
-        font-size: 20px;
-
-    }
-
-    .navbar img {
-        height: 20px;
-        width: 20px;
-        margin-left: 5px;
-    }
-}
-
 .sidebar {
     position: absolute;
     left: 0px;
@@ -142,7 +120,7 @@
 
 #spanhead {
     color: rgb(103, 180, 228);
-    ;
+    
 }
 
 .sidebar ul li {
@@ -166,4 +144,44 @@
     letter-spacing: 1px;
     transition: all 400ms ease;
 
+}
+/* responsive design */
+
+@media(max-width: 700px) {
+    .search {
+        display: none;
+    }
+}
+
+@media(max-width: 450px) {
+    #nav-heading {
+        font-size: 20px;
+
+    }
+
+    .navbar img {
+        height: 20px;
+        width: 20px;
+        margin-left: 5px;
+    }
+    .loginbutton{
+        position: absolute;
+        top:25px;
+        right: 0px;
+    }
+    .logout{
+        position: absolute;
+        top:25px;
+        right: 0px;
+    }
+    .sidebar{
+        width: 50%;
+    }
+    .sidebar h3{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .closebutton{
+        font-size: 8px;
+    }
 }

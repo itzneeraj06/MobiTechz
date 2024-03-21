@@ -5,10 +5,14 @@
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    margin: 5px;
+    margin: 25px 10px;
     align-items: center;
     padding: 20px 0px;
     border-radius: 2px;
+    
+}
+.cparent{
+    display: flex;
 }
 .container:hover{
     border: 1px solid rgb(0, 195, 255);
@@ -32,4 +36,30 @@
     background-color:#00c3ff ;
     color: #fff;
    }
+}
+@media(max-width:450px){
+    .container{
+        position: relative;
+        height: 20vh;
+        width: 15vh;
+    }
+    img{
+        height: 100px;
+    }
+    .heading p{
+        font-size: 12px;
+    }
+    #name{
+        color: #4d4c4c;
+    }
+    #price{
+        color: #002a32;
+    }
+    .button1{
+        padding: 10px 24px;
+        border: none;
+        font-size: 14px;
+       
+    }
+    
 }

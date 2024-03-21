@@ -9,8 +9,6 @@
     display: flex;
     overflow: auto;
 }
-.slides{
-}
 body{
     background-color: #c0c0c0;
 }
@@ -19,4 +17,13 @@ body{
  height: 1px;
     width: 1px;
 }
+@media(max-width: 450px) {
+    .slides img{
+        height: 80px;
 
+    }
+    .slider{
+        height: 100px;
+    }
+    
+}

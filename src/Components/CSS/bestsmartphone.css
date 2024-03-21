@@ -6,14 +6,15 @@
     background-color: #a3a3a3;
     
 }
+
 .toplistheading h2{
     text-align: center;
 
 }
 .productlist{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    margin: auto;
 
 }
 .more{
@@ -33,4 +34,11 @@
 }
 .more button:hover{
     background-color: #c5c5c5;
+}
+@media(max-width: 450px){
+    .toplistheading h2{
+        font-size: 15px;
+    
+    }
+
 }

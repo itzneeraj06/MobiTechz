@@ -7,16 +7,17 @@
     margin-top: 5px;
 }
 .innercart{
-    width: 12.3vw;
     display: flex;
     margin: 3px;
     flex-direction: column;
-    background-color: #d6d6d6;
-    
+    background-color: #d6d6d6;    
     
 }
 .innercart:hover{
     border: 1px solid #00aaff;
+}
+.innercart img{
+    height: 100px;
 }
 .innercart p{
     padding: 2px;
@@ -24,7 +25,14 @@
 }
 .cart{
     display: flex;
-    overflow:hidden;
+    overflow:scroll;
     padding-bottom: 20px;
+    
+}
+@media(max-width:450px){
+    
+    .innercart p{
+        font-size: 8px;
+    }
     
 }
