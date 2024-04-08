@@ -11,10 +11,10 @@
     text-align: center;
 
 }
-.productlist{
+.productlst{
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow: scroll;
 
 }
 .more{

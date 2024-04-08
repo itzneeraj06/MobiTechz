@@ -15,7 +15,7 @@ const Bestsmartphone = (props) => {
             <div className="toplistheading">
                 <h2>{props.heading}</h2>
             </div>
-            <div className="productlist">
+            <div className="productlst">
                 {
                     alldata.map((item,i)=>{
                         if(item.price<=10000)
@@ -31,7 +31,7 @@ const Bestsmartphone = (props) => {
 
             </div>
             <div className='more'>
-                <Link to='/Productdetails'>more</Link>
+                <Link to='/Productdetails' onClick={() => window.scrollTo(0, 0)}>more</Link>
             </div>
 
         </div>
