@@ -8,7 +8,7 @@ const ProductList = () => {
     const shopbybrand = alldata.find((e) => e.brand === (brand));
     if(!shopbybrand){
         //yadi brands ke products available nhi ho 
-        return null
+        return null;
 
     }
 
@@ -22,7 +22,7 @@ const ProductList = () => {
                     {
                         alldata.map((item, i) => {
                             if (item.brand === shopbybrand.brand) {
-                                return <Listview id={item.id} model={item.model} brand={item.brand} price={item.price} />
+                                return <Listview id={item.id} model={item.model} brand={item.brand} price={item.price} release={item.release} screen={item.screenSize} processor={item.processor} battery={item.battery} camera={item.camera}/>
                             } else {
                                 return null;
                             }
