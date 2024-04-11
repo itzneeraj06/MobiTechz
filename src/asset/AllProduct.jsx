@@ -1,4 +1,4 @@
-let alldata=[
+let alldata = [
 
     {
         id: 1,
@@ -10,8 +10,9 @@ let alldata=[
         storage: "64/256 GB",
         camera: "Dual 12 MP",
         battery: "2716 mAh",
-        price:30000,
-        release:"3/nov/2017"
+        price: 30000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
     },
     {
         id: 2,
@@ -23,8 +24,9 @@ let alldata=[
         storage: "64/128/256 GB",
         camera: "Dual 12 MP",
         battery: "3110 mAh",
-        price:100000,
-        release:"20/sept/2019"
+        price: 100000,
+        release: "20/sept/2019",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
     },
     {
         id: 3,
@@ -36,8 +38,9 @@ let alldata=[
         "storage": "64/128/256 GB",
         "camera": "Dual 12 MP",
         "battery": "2815 mAh",
-        price:40000,
-        release:"23/oct/2020"
+        price: 40000,
+        release: "23/oct/2020",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
     },
     {
         id: 4,
@@ -49,8 +52,9 @@ let alldata=[
         "storage": "128/256/512 GB",
         "camera": "Dual 12 MP",
         "battery": "unknown",
-        price:50000,
-        release:"24/sept/2021"
+        price: 50000,
+        release: "24/sept/2021",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
     },
     {
         id: 5,
@@ -62,8 +66,9 @@ let alldata=[
         "storage": "128/256/512 GB",
         "camera": "Dual 12 MP",
         "battery": "unknown",
-        price:60000,
-        release:"16/sept/2022"
+        price: 60000,
+        release: "16/sept/2022",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
     },
     {
         id: 6,
@@ -75,8 +80,9 @@ let alldata=[
         "storage": "128/256/512 GB",
         "camera": "Dual 12 MP",
         "battery": "unknown",
-        price:100000,
-        release:"22/sept/2023"
+        price: 100000,
+        release: "22/sept/2023",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
     },
     {
         id: 7,
@@ -88,8 +94,9 @@ let alldata=[
         "storage": "64/128/256 GB",
         "camera": "Dual 12 MP",
         "battery": "2227 mAh",
-        price:35000,
-        release:"3/nov/2017"
+        price: 35000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
     },
     {
         id: 8,
@@ -101,8 +108,9 @@ let alldata=[
         "storage": "128/256/512 GB",
         "camera": "Dual 12 MP",
         "battery": "Unknown",
-        price:45000,
-        release:"3/nov/2017"
+        price: 45000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
 
 
     },
@@ -116,8 +124,9 @@ let alldata=[
         "storage": "128/256 GB",
         "camera": "108 MP + 13 MP + 5 MP",
         "battery": "4600 mAh",
-        price:20000,
-        release:"3/nov/2017"
+        price: 20000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
     },
     {
         id: 10,
@@ -129,8 +138,10 @@ let alldata=[
         "storage": "64/128 GB",
         "camera": "64 MP + 8 MP + 5 MP + 2 MP",
         "battery": "5020 mAh",
-        price:20000,
-        release:"3/nov/2017"
+        price: 20000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
+
     },
     {
         id: 11,
@@ -142,8 +153,10 @@ let alldata=[
         "storage": "128/256 GB",
         "camera": "48 MP + 8 MP + 2 MP + 2 MP",
         "battery": "5160 mAh",
-        price:250000,
-        release:"3/nov/2017"
+        price: 250000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
+
     },
     {
         id: 12,
@@ -155,8 +168,10 @@ let alldata=[
         "storage": "128/256 GB",
         "camera": "108 MP + 13 MP + 5 MP",
         "battery": "5000 mAh",
-        price:30000,
-        release:"3/nov/2017"
+        price: 30000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
+
     },
     {
         id: 13,
@@ -168,11 +183,12 @@ let alldata=[
         "storage": "64/128 GB",
         "camera": "48 MP + 8 MP + 5 MP + 2 MP",
         "battery": "5020 mAh",
-        price:10000,
-        release:"3/nov/2017"
+        price: 10000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
     },
     {
-        id:14,
+        id: 14,
         brand: "Samsung",
         "model": "Galaxy S21 Ultra",
         "screenSize": "6.8 inches",
@@ -181,11 +197,12 @@ let alldata=[
         "storage": "128/256/512 GB",
         "camera": "108 MP + 12 MP + 10 MP + 10 MP + 40 MP",
         "battery": "5000 mAh",
-        price:100000,
-        release:"3/nov/2017"
+        price: 100000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
     },
     {
-        id:15,
+        id: 15,
         brand: "Samsung",
         "model": "Galaxy A52",
         "screenSize": "6.5 inches",
@@ -194,12 +211,14 @@ let alldata=[
         "storage": "128/256 GB",
         "camera": "64 MP + 12 MP + 5 MP + 5 MP",
         "battery": "4500 mAh",
-        price:10000,
-        release:"3/nov/2017"
+        price: 10000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
+
     },
 
     {
-        id:16,
+        id: 16,
         brand: "Samsung",
         "model": "Galaxy M51",
         "screenSize": "6.7 inches",
@@ -208,11 +227,12 @@ let alldata=[
         "storage": "128 GB",
         "camera": "64 MP + 12 MP + 5 MP + 5 MP",
         "battery": "7000 mAh",
-        price:15000,
-        release:"3/nov/2017"
+        price: 15000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
     },
     {
-        id:17,
+        id: 17,
         brand: "Samsung",
         "model": "Galaxy Note 20 Ultra",
         "screenSize": "6.9 inches",
@@ -221,11 +241,13 @@ let alldata=[
         "storage": "128/256/512 GB",
         "camera": "108 MP + 12 MP + 12 MP",
         "battery": "4500 mAh",
-        price:120000,
-        release:"3/nov/2017"
+        price: 120000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
+
     },
     {
-        id:18,
+        id: 18,
         brand: "Samsung",
         "model": "Galaxy M32",
         "screenSize": "6.4 inches",
@@ -234,12 +256,13 @@ let alldata=[
         "storage": "64/128 GB",
         "camera": "64 MP",
         "battery": "unknown",
-        price:20000,
-        release:"3/nov/2017"
+        price: 20000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
 
     },
     {
-        id:19,
+        id: 19,
         brand: "Samsung",
         "model": "Galaxy S21",
         "screenSize": "6.2 inches",
@@ -248,11 +271,13 @@ let alldata=[
         "storage": "128/256 GB",
         "camera": "64 MP + 12 MP + 12 MP",
         "battery": "4000 mAh",
-        price:80000,
-        release:"3/nov/2017"
-      },
-      {
-        id:20,
+        price: 80000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
+
+    },
+    {
+        id: 20,
         brand: "Samsung",
         "model": "Galaxy A72",
         "screenSize": "6.7 inches",
@@ -261,11 +286,13 @@ let alldata=[
         "storage": "128/256 GB",
         "camera": "64 MP + 12 MP + 8 MP + 5 MP",
         "battery": "5000 mAh",
-        price:20000,
-        release:"3/nov/2017"
-      },
-      {
-        id:20,
+        price: 20000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
+
+    },
+    {
+        id: 20,
         brand: "Samsung",
         "model": "Galaxy M12",
         "screenSize": "6.5 inches",
@@ -274,11 +301,13 @@ let alldata=[
         "storage": "32/64/128 GB",
         "camera": "48 MP + 5 MP + 2 MP + 2 MP",
         "battery": "6000 mAh",
-        price:10000,
-        release:"3/nov/2017"
-      },
-      {
-        id:21,
+        price: 10000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
+
+    },
+    {
+        id: 21,
         brand: "Samsung",
         "model": "Galaxy F62",
         "screenSize": "6.7 inches",
@@ -287,11 +316,13 @@ let alldata=[
         "storage": "128 GB",
         "camera": "64 MP + 12 MP + 5 MP + 5 MP",
         "battery": "7000 mAh",
-        price:18000,
-        release:"3/nov/2017"
-      },
-      {
-        id:22,
+        price: 18000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
+
+    },
+    {
+        id: 22,
         brand: "Samsung",
         "model": "Galaxy M02s",
         "screenSize": "6.5 inches",
@@ -300,9 +331,11 @@ let alldata=[
         "storage": "32/64 GB",
         "camera": "13 MP + 2 MP + 2 MP",
         "battery": "5000 mAh",
-        price:10000,
-        release:"3/nov/2017"
-      }
+        price: 10000,
+        release: "3/nov/2017",
+        desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
+
+    }
 
 ]
 export default alldata;

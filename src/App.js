@@ -19,7 +19,7 @@ function App() {
       <Navbar login={login} setLogin={setLogin} />
       <Routes>
 
-        <Route path='/' element={<PrivateRoute login={login}><Home/></PrivateRoute>} />
+        <Route path='/' element={<Home/>} />
         <Route path="/productdetails" element={<PrivateRoute login={login}><Productdetails /></PrivateRoute>} />
         <Route path="/Fullview" element={<PrivateRoute login={login}><p>select a product</p></PrivateRoute>} />
         <Route path="/Fullview/:id" element={<PrivateRoute login={login}><Fullview /></PrivateRoute>} />

@@ -1,39 +1,193 @@
-
-.mainnnnn{
+.outerfullview{
     display: flex;
     justify-content: center;
-    margin-top: 5px;
+}
+.fullviewcontainer{
+    margin: 5px;
+    width:50% ;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:600px){
+    
+.fullviewcontainer{
+    width: 90%;
+}
+}
+.page1{
+    width: 100%;
+    height: 60vh;
+    background-color: aliceblue;
+}
+.fullviewtitle{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 5px;
+    border-bottom: 1px solid #8e8e8e;
+}
+.fullviewhome{
+    display: flex;
 
 }
-.mainfullview{
+.fullviewimg{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.fullviewspecs{
+    width: 70%;
+}
+.fullviewpricebtn{
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items:flex-end;
+    border-bottom:1px solid #9b9b9b ;
+
+}
+.fullviewpricebtn button{
+    background-color: #ca2727;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    
+}
+.keyspecs{
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #606060;
+    margin-top: 20px;
+}
+.viewspecs{
+    background-color:#d9d9d9;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 2px;
+    border-radius: 5px;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vsinner{
+    width: 45%;
+    display: flex;
+    margin: 10px;
+}
+.i1{
+    color: #252525;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.i2{}
+.i3{
+    color: #363636;
+    font-size: 15px;
+}
+.page2,.page3,.page4,.page5{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px 20px;
+    background-color: aliceblue;
+
+}
+.page2heading,.page3heading,.page4heading,.page5heading{
+    padding: 10px;
+    font-size: 25px;
+}
+.page2desc{
+    padding-left: 10px;
+    font-size:13px;
+}
+.variantsbox{
+    display: flex;
+    width: 100%;
+    padding: 10px 50px;
+}
+.variantsbox p{
+    background-color: rgb(37, 37, 37);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: #fff;
+    
+}
+.storeprices{
     width: 90%;
     display: flex;
     flex-direction: column;
-    background-color: #9e9e9e;
-
+    padding: 5%;
 }
-.leftimg{
-    padding: 50px 100px;
-    background-color: #fff;
-}
-.fullimg{
-    height:400px ;
 
-
-}
-.innerfull{
+.storeprices p{
     display: flex;
+    align-items: center;
+}
+.stores img{
+    width: 20%;
+    padding-right: 10px;
+}
+.stores{
+    display: flex;
+    justify-content: space-between;
+}
+#buy{
+    background-color: #ca2727;
+    border: none;
+    color: #fff;
+    padding: 10px 20px ;
+    border-radius: 10px;
+
 
 }
-.key{
-    color: #0800ff;
-}
-.con1{
-    display: flex;
-}
-.rightinfo{
-    margin-left: 30px;
-}
-.con2 ul li{
-    list-style: none;
+.general,.display,.hardware,.software,.camera,.connectivity,.sensor{
+    background-color: #bababa;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}   
+.fullspecs p{
+    margin: 15px;
+} 
+@media (max-width:600px){
+    .fullviewimg{
+        width: 40%;
+
+    }
+    .fullviewimg img{
+        height:50%;
+        width: 90%;
+    }
+    .fullviewspecs{
+        width: 60%;
+    }
+    .fullviewpricebtn{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+    }
+    .viewspecs{
+        width: 80%;
+    }
+    .vsinner{
+        width: 90%;
+    }
+    .variantsbox{
+        padding: 10px 10px;
+        overflow:scroll ;
+    }
+    .variantsbox p{
+
+    }
+    .page1{
+        height: auto;
+    }
+
 }

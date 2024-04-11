@@ -13,7 +13,7 @@ const Topphone = (props) => {
           <p id='name'>{props.name}</p>
           <p id='price'><b>Rs.{props.price}</b></p>
         </div>
-        <Link to={`/Fullview/${props.id}`}><button className='button1' >View details </button></Link>
+        <Link to={`/Fullview/${props.id}`}><button className='button1' onClick={() => window.scrollTo(0, 0)}>View details </button></Link>
 
 
       </div>
