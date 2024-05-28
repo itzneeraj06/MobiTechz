@@ -335,6 +335,23 @@ let alldata = [
         release: "3/nov/2017",
         desc: "Mobile phones have revolutionized the way we communicate and access information. These handheld devices have become an indispensable part of our daily lives, offering not just communication but also entertainment, productivity, and connectivity on the go. With advancements in technology, mobile phones have evolved from simple devices for making calls and sending text messages to powerful mini-computers capable of performing a wide range of tasks. Today, smartphones dominate the market, offering features like high-resolution cameras, immersive displays, fast processors, and extensive app ecosystems. From flagship models boasting cutting-edge innovations to budget-friendly options providing essential functionalities, there's a mobile phone for every need and budget.The mobile phone industry is characterized by fierce competition and rapid innovation, driving manufacturers to constantly push the boundaries of what these devices can do. Features such as 5G connectivity, augmented reality, facial recognition, and biometric security have become commonplace, enhancing user experience and convenience.Mobile phones have also transformed industries beyond communication, impacting sectors like healthcare, education, finance, and entertainment. They enable telemedicine, remote learning, mobile banking, and immersive gaming experiences, among other applications. Overall, mobile phones continue to shape our world, connecting people, powering businesses, and driving technological progress forward."
 
+    },
+    {
+        id: 23,
+        brand: "Realme",
+        model: "C53",
+        screenSize: "6.74 ",
+        processor: "Unisec Octa Core",
+        ram: "6 GB",
+        storage: "64 GB",
+        camera: "108MP",
+        battery: "5000 mAh",
+        price: 8990,
+        release: "3/nov/2017",
+        os:'Android',
+        desc: "The Realme C53 sports a 6.74-inch display with a 90Hz refresh rate. The display panel has a 90 percent screen-to-body ratio and the display quality is good for enjoying multimedia content. The phone is powered by Unisoc T616 SoC"
+
+
     }
 
 ]
