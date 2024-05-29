@@ -1,67 +1,70 @@
 
 .mainnn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-
-    
+    width: 100%;
 }
 .brandsmain{
 
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    background-color: #9d9c9c;
-    margin-top: 5px;
+   
+   width: 90%;
+   margin: auto;
+   background-color: #9b9b9b;
+   padding-bottom: 20px;
+   
 
 }
 
 .brandsmain h2{
-    font-size: 35px;
+   font-size: 35px;
+   padding-top: 20px;
+   padding-left: 5px;
 }
 .brandimg{
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    padding-bottom: 50px;
+   display:flex;
+   flex-wrap: wrap;
+   width:100%;
+   justify-content: center;
 
 }
-
-
+.brandlink{
+   width:250px;
+   margin: 5px;
+}
+.brandlink:hover{
+   box-shadow: 1px 1px 5px #55b2c5;
+}
 .brandimg img{
-    height: 186px;
-    margin: 5px;
-    background-color: #fff;
-    border-radius: 5px;
+
+   background-color: #fff;
+   width: 100%;
+   height: 100%;
 }
 .brandimg img:hover{
-    border: 1px solid #00c3ff;
+   box-sizing: 1px 1px 1px #fff;
 }
 .mainnn button{
 
-    border: none;
-    outline: none;
-    background-color:#838383;
-    padding: 10px 30px;
-    border-radius: 5px;
-    display: flex;
-    margin: auto;
-    margin-bottom: 50px;
-    color: #fff;
+   border: none;
+   outline: none;
+   background-color:#838383;
+   padding: 10px 30px;
+   border-radius: 5px;
+   display: flex;
+   margin: auto;
+   margin-top: 20px;
+   color: #fff;
 
 }
 .mainnn button:hover{
-    background-color: #727171;
+   background-color: #727171;
 }
 @media (max-width:450px){
-    .brandsmain h2{
-        font-size: 30px;
-        margin-left: 2px;
-    }
-    .brandimg img{
-        height: 80px;
-    }
+   .brandsmain h2{
+       font-size: 30px;
+       margin-left: 2px;
+   }
+   .brandlink{
+       width:150px;
+   }
+   
 
 }

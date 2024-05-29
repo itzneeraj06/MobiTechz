@@ -17,14 +17,14 @@ const Brands = (props) => {
       <div className='brandsmain'>
         <h2>{props.heading}</h2>
         <div className='brandimg'>
-          <Link to={`/ShopbyBrand/Apple`} onClick={() => window.scrollTo(0, 0)}> <img src={img1} alt="" /></Link>
-          <Link to={`/ShopbyBrand/Lenovo`} onClick={() => window.scrollTo(0, 0)}> <img src={img2} alt="" /></Link>
-          <Link to={`/ShopbyBrand/Nokia`} onClick={() => window.scrollTo(0, 0)}> <img src={img3} alt="" /></Link>
-          <Link to={`/ShopbyBrand/Oneplus`} onClick={() => window.scrollTo(0, 0)}> <img src={img4} alt="" /></Link>
-          <Link to={`/ShopbyBrand/Oppo`} onClick={() => window.scrollTo(0, 0)}> <img src={img5} alt="" /></Link>
-          <Link to={`/ShopbyBrand/Vivo`} onClick={() => window.scrollTo(0, 0)}> <img src={img6} alt="" /></Link>
-          <Link to={`/ShopbyBrand/Xiaomi`} onClick={() => window.scrollTo(0, 0)}> <img src={img7} alt="" /></Link>
-          <Link to={`/ShopbyBrand/Samsung`} onClick={() => window.scrollTo(0, 0)}> <img src={img8} alt="" /></Link>
+          <Link to={`/ShopbyBrand/Apple`} onClick={() => window.scrollTo(0, 0)} className='brandlink'> <img src={img1} alt="" /></Link>
+          <Link to={`/ShopbyBrand/Lenovo`} onClick={() => window.scrollTo(0, 0)} className='brandlink'> <img src={img2} alt="" /></Link>
+          <Link to={`/ShopbyBrand/Nokia`} onClick={() => window.scrollTo(0, 0)} className='brandlink'> <img src={img3} alt="" /></Link>
+          <Link to={`/ShopbyBrand/Oneplus`} onClick={() => window.scrollTo(0, 0)} className='brandlink'> <img src={img4} alt="" /></Link>
+          <Link to={`/ShopbyBrand/Oppo`} onClick={() => window.scrollTo(0, 0)} className='brandlink'> <img src={img5} alt="" /></Link>
+          <Link to={`/ShopbyBrand/Vivo`} onClick={() => window.scrollTo(0, 0)} className='brandlink'> <img src={img6} alt="" /></Link>
+          <Link to={`/ShopbyBrand/Xiaomi`} onClick={() => window.scrollTo(0, 0)} className='brandlink'> <img src={img7} alt="" /></Link>
+          <Link to={`/ShopbyBrand/Samsung`} onClick={() => window.scrollTo(0, 0)} className='brandlink'> <img src={img8} alt="" /></Link>
         </div>
         <button>All Brands</button>
       </div>
