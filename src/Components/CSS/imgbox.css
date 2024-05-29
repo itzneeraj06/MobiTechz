@@ -1,0 +1,19 @@
+.imgparent{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+
+}
+.imginner{
+    width: 90%;
+
+}
+.imginner img{
+    width: 100%;
+
+}
+@media (max-width:450px){
+    .imginner{
+        width: 100%;
+    }
+}

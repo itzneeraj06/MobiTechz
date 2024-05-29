@@ -1,0 +1,28 @@
+.ytparent{
+    width: 100%;
+}
+.ytinner{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.yt{
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+}
+@media (max-width:450px) {
+    .ytinner{
+        width: 100%;
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+    .yt{
+        width: 100%;
+    }
+}

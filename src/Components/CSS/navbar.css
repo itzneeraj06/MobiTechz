@@ -6,6 +6,9 @@
     align-items: center;
 
 }
+
+.navbar img {}
+
 .navbar button {
     border: none;
     background-color: transparent;
@@ -94,6 +97,7 @@
 
 .sidebar {
     position: absolute;
+    z-index: 1;
     left: 0px;
     top: 0px;
     height: 100vh;
@@ -120,7 +124,7 @@
 
 #spanhead {
     color: rgb(103, 180, 228);
-    
+    ;
 }
 
 .sidebar ul li {

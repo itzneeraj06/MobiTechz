@@ -4,41 +4,59 @@
     flex-direction: column;
     margin: auto;
     background-color: #a3a3a3;
+    margin-top: 5px;
     
 }
 
 .toplistheading h2{
-    text-align: center;
+    padding-left: 20px;
 
+}
+.hr{
+    width: 100%;
+    border: 1px solid #999999;
 }
 .productlst{
     display: flex;
     justify-content: flex-start;
     overflow: scroll;
+    height: 100%;
 
 }
-.more{
+.moree{
+    display: flex;
+    align-items: center;;
+}
+.styled-link {
+
+    background-color: #516a71; /* Original color */
+    color: #fff;
+    padding: 5px 12px;
     text-align: center;
-}
-.more button{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 10px 10px;
     border: none;
-    outline: none;
-    padding: 5px 15px;
-    border-radius: 2px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    background-color: #b6b6b6;
-    
-    
+    border-radius: 1px;
+    transition: background-color 0.3s ease;
+}
 
+.styled-link:hover {
+    background-color: #4f97a5; /* Hover color */
 }
-.more button:hover{
-    background-color: #c5c5c5;
+
+.styled-link:active {
+    background-color: #3f7b87; /* Active (click) color */
 }
+
 @media(max-width: 450px){
     .toplistheading h2{
-        font-size: 15px;
+        font-size: 20px;
     
+    }
+    .main{
+        width: 100%;
     }
 
 }

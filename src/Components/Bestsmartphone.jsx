@@ -14,11 +14,12 @@ const Bestsmartphone = (props) => {
 
             <div className="toplistheading">
                 <h2>{props.heading}</h2>
+                <hr className='hr'/>
             </div>
             <div className="productlst">
                 {
                     alldata.map((item,i)=>{
-                        if(item.price<=10000)
+                        if(item.price<=props.pricemax&&item.price>props.pricemin)
                         {
                             return <Topphone id={item.id} name={item.model} price={item.price}/>
                                 
@@ -27,13 +28,13 @@ const Bestsmartphone = (props) => {
                         }
                         )
                 }
-             
+            <div className='moree'>
+                <Link to='/Productdetails' className='styled-link' onClick={() => window.scrollTo(0, 0)}>View All</Link>
+            </div>
+ 
 
             </div>
-            <div className='more'>
-                <Link to='/Productdetails' onClick={() => window.scrollTo(0, 0)}>more</Link>
-            </div>
-
+            
         </div>
     )
 }
