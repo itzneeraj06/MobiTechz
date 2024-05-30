@@ -6,14 +6,17 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 
 }
 .yt{
-    width: 50%;
+    width: 49%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
+    margin: 2px;
+    
 
 }
 @media (max-width:450px) {

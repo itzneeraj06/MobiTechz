@@ -6,9 +6,9 @@ const YoutubeBox = () => {
         <div className='ytparent'>
             <div className='ytinner'>
             <YouTube videoId='XEXjdb0FBT0' className='yt'/>
-            <YouTube videoId='twZNsoDkJvc' className='yt'/>
+            {/* <YouTube videoId='twZNsoDkJvc' className='yt'/>
             <YouTube videoId='Tdr9GkZVwSQ' className='yt'/>
-            <YouTube videoId='oizJNWW58uw' className='yt'/>
+            <YouTube videoId='oizJNWW58uw' className='yt'/> */}
             </div>
         </div>
     )

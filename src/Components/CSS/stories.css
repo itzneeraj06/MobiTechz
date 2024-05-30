@@ -11,14 +11,24 @@
     margin: 3px;
     flex-direction: column;
     background-color: #d6d6d6;    
-    
+    width: 210px;
+    height: 180px;
+    scale: 1;   
 }
 .innercart:hover{
-    border: 1px solid #00aaff;
+    
+        scale: 101%;
+        z-index: 1;
+        box-shadow: 1px 1px 1px #2b899c;
+
+    
 }
-.innercart img{
-    height: 100px;
-}
+.innerimg{
+    overflow: hidden;
+ }
+ .innerimg img{
+    height: 150px;
+ }
 .innercart p{
     padding: 2px;
     font-size: 13px;
@@ -30,6 +40,10 @@
     
 }
 @media(max-width:450px){
+    .mainn{
+        width: 99%;
+
+    }
     
     .innercart p{
         font-size: 8px;

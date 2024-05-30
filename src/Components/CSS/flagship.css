@@ -1,0 +1,134 @@
+.bgimgflagshipparent {
+    width: 100%;
+    margin: 20px 0px;
+    /* overflow: hidden; */
+}
+
+.bgimgflagshipinner {
+    width: 65%;
+    margin: auto;
+    position: relative;
+}
+
+.kyapya {
+    overflow: hidden;
+}
+.dekh{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.bgimgflagship {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    scale: 1;
+}
+
+.bgimgflagship:hover {
+    scale: 1.01;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+#head1 {
+    background-color: #67c2b1;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 10px;
+    padding: 10px 10px;
+    font-family: monospace;
+
+}
+
+#head1 span {
+    font-size: 40px;
+    color: #fff;
+    font-family: monospace;
+
+}
+
+#model {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px #000;
+    padding-left: 10px;
+    opacity: 0;
+    transform: translateY(100%);
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#bottomcaption {
+    background-color: #000;
+    filter: opacity(30%);
+    height: 50px;
+    color: #fff;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    opacity: 0;
+    transform: translateY(5%);
+    overflow: hidden;
+    margin: 0;
+}
+
+#bottomcaption:hover {
+    letter-spacing: 1px;
+    transition: all 400ms ease;
+
+}
+
+.bgimgflagshipinner:hover {
+
+    #model,
+    #bottomcaption {
+        opacity: 1;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        transform: translateX(0%);
+
+
+    }
+}
+
+@media (max-width:1024px) {
+    #model {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:770px) {
+    #model {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:450px) {
+    .bgimgflagshipparent {
+        height: 250px;
+    }
+
+    #head1 {
+        font-size: 25px;
+    }
+
+    #model {
+        font-size: 18px;
+    }
+
+    .bgimgflagshipinner {
+        width: 90%;
+    }
+}
+
+@media (max-width:375px) {
+    #head1 {
+        font-size: 20px;
+    }
+}

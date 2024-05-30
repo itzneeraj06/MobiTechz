@@ -10,14 +10,20 @@ import img from '../asset/banner7.webp'
 import img2 from '../asset/banner5.webp'
 import News from '../Components/News'
 import YoutubeBox from '../Components/YoutubeBox'
+import Flagship from '../Components/Flagship'
 const Home = () => {
+  
   return (
     <div className='mainContainer'>
+      
       <Header/>
       <Banner/>
       <News/>
       <Heading heading="Sale of the Day"/>
       <Imgbox img={img}/>
+      <Flagship heading='Flagship Phones'link='https://fdn.gsmarena.com/imgroot/reviews/24/samsung-galaxy-s24-ultra/-728x314/gsmarena_003.jpg' title='Samsung Galaxy S24 Ultra' id='1'/>
+      {/* <Flagship heading='Gaming Phones'link='https://fdn.gsmarena.com/imgroot/reviews/23/asus-rog-phone-8-pro/-728x314/gsmarena_001.jpg' title='Asus ROG Phone 8 Pro' id='1'/> */}
+      {/* <Flagship heading='Camera Phones'link='https://fdn.gsmarena.com/imgroot/reviews/24/xiaomi-14-ultra/-728x314/gsmarena_002.jpg' title='Xiaomi 13T Pro' id='1'/> */}
       <Heading heading="Trending on Youtube"/>
       <YoutubeBox/>
       <Heading heading="Shop By Price"/>
@@ -26,7 +32,7 @@ const Home = () => {
       <Bestsmartphone heading="Under ₹20000" pricemax="20000" pricemin="15000"/>
       <Heading heading="Latest Launches"/>
       <Imgbox img={img2}/>
-      <Stories heading="Tech Updates" title="Redmi Note 13s Bezel vs iPhone 14 Pro: A NOTiceable Upgrade "/>
+      <Stories heading="Tech Updates"/>
       <Brands heading="Featured Phone Brand's"/>
     </div>
   )
