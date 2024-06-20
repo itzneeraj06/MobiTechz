@@ -5,7 +5,7 @@ import { Link} from 'react-router-dom'
 import alldata from '../asset/AllProduct'
 
 const Bestsmartphone = (props) => {
-    
+    const path= `/shopbyprice/${props.pricemax}`;
 
     return (
 
@@ -29,7 +29,7 @@ const Bestsmartphone = (props) => {
                         )
                 }
             <div className='moree'>
-                <Link to='/productdetails' className='styled-link' onClick={() => window.scrollTo(0, 0)}>View All</Link>
+                <Link to={path} className='styled-link' onClick={() => window.scrollTo(0, 0)}>View All</Link>
             </div>
  
 

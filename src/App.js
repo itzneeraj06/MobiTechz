@@ -20,7 +20,7 @@ function App() {
       <Routes>
 
         <Route path='/' element={<Home/>} />
-        <Route path="/productdetails" element={<PrivateRoute login={login}><Productdetail /></PrivateRoute>} />
+        <Route path="/shopbyprice/:price" element={<PrivateRoute login={login}><Productdetail /></PrivateRoute>} />
         <Route path="/Fullview" element={<PrivateRoute login={login}><p>select a product</p></PrivateRoute>} />
         <Route path="/Fullview/:id" element={<PrivateRoute login={login}><Fullview /></PrivateRoute>} />
         <Route path="/ShopbyBrand" element={<PrivateRoute login={login}><ProductList /></PrivateRoute>} />

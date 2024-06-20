@@ -24,7 +24,7 @@ const Login = ({ login, setLogin }) => {
           <label>Email Address</label>
           <input type="email" name="email" placeholder='enter dummy data to login ex.a@a' required/><br />
           <label >Password</label>
-          <input type="password" name='password' placeholder='enter dummy password ex.a' required/>
+          <input type="password" name='password' placeholder='enter dummy password ex.abcd' required/>
 
           <button>Login </button>
         </form>
