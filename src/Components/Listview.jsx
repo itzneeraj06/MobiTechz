@@ -1,7 +1,6 @@
 import React from 'react'
 import './CSS/listview.css'
 import { Link } from 'react-router-dom'
-// import img1 from "../asset/product1.webp"
 import { FaCamera, FaMicrochip, FaDesktop, FaBatteryFull, FaArrowRight } from 'react-icons/fa';
 
 const Listview = (props) => {
@@ -21,13 +20,41 @@ const Listview = (props) => {
           <div className='l1121'>{props.brand} {props.model}</div>
           <div className='l1122'>
             <div className='l11221'>
-              <FaDesktop size={20} color="#2a2a2a" />&nbsp;&nbsp;{props.screen}</div>
+              <div className='l112211'>
+                <FaDesktop size={20} />
+              </div>
+              <div className='l112212'>
+                <p className='l1122121'>Display</p>
+                <p className='l1122122'>{props.screen}</p>
+              </div>
+            </div>
             <div className='l11221'>
-              <FaMicrochip size={20} color="#2a2a2a" />&nbsp;&nbsp;{props.processor}</div>
+              <div className='l112211'>
+                <FaMicrochip size={20} />
+              </div>
+              <div className='l112212'>
+                <p className='l1122121'>Processor</p>
+                <p className='l1122122'>{props.processor}</p>
+              </div>
+            </div>
             <div className='l11221'>
-              <FaCamera size={20} color="#2a2a2a" />&nbsp;&nbsp;{props.camera}</div>
+              <div className='l112211'>
+                <FaCamera size={20} />
+              </div>
+              <div className='l112212'>
+                <p className='l1122121'>Camera</p>
+                <p className='l1122122'>{props.camera}</p>
+              </div>
+            </div>
             <div className='l11221'>
-              <FaBatteryFull size={20} color="#2a2a2a" /> &nbsp;&nbsp;{props.battery}</div>
+              <div className='l112211'>
+                <FaBatteryFull size={20} />
+              </div>
+              <div className='l112212'>
+                <p className='l1122121'>Battery</p>
+                <p className='l1122122'>{props.battery}</p>
+              </div>
+            </div>
           </div>
           <div className='l1123' >
             <Link to={`/Fullview/${props.id}`} onClick={() => window.scrollTo(0, 0)} >more specs &nbsp;&nbsp;<FaArrowRight /></Link></div>
