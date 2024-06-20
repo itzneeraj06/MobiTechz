@@ -1027,7 +1027,7 @@ let alldata = [
         },
         "platform": {
             "os": "Android 13",
-            "processor": "Exynos 2200 (International), Qualcomm Snapdragon 8 Gen 3 (USA/China)",
+            "processor": "Qualcomm Snapdragon 8 Gen 3",
             "cores": "Octa-core"
         },
         "ram": "16GB",
@@ -1455,5 +1455,14 @@ let alldata = [
         "desc": "The Samsung Galaxy S20 Plus features a vibrant Dynamic AMOLED 2X display, powerful processor options, and a versatile triple-camera setup, making it a premium flagship smartphone with top-notch performance and photography capabilities.",
         "img": "https://www.91-img.com/pictures/137636-v3-samsung-galaxy-s20-plus-mobile-phone-medium-1.jpg?tr=q-80"
     }
+
+
+
+
+
+
+
+
+
 ]
 export default alldata;

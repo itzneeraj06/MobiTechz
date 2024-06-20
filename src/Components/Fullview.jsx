@@ -37,39 +37,52 @@ const Fullview = () => {
               <div className="viewspecs">
                 <div className='vsinner'>
                   <div className='i1'><FaDesktop /></div>
-                  <div className='i2'><div className='i3'>display</div>
-
-                    <div className='i4'>{product.display.size}</div></div>
+                  <div className='i2'>
+                    <div className='i3'>display</div>
+                    <div className='i4'>{product.display.size}</div>
+                  </div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaMicrochip /></div>
-                  <div className='i2'> <div className='i3'>processor</div>
-                    <div className='i4'>{product.platform.processor}</div></div>
+                  <div className='i2'>
+                    <div className='i3'>processor</div>
+                    <div className='i4'>{product.platform.processor}</div>
+                  </div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaCamera /></div>
-                  <div className='i2'> <div className='i3'>front camera</div>
-                    <div className='i4'>{product.camera.front.px}</div></div>
+                  <div className='i2'>
+                    <div className='i3'>front camera</div>
+                    <div className='i4'>{product.camera.front.px}</div>
+                  </div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaCamera /></div>
-                  <div className='i2'> <div className='i3'>rear camera</div>
-                    <div className='i4'>{product.camera.rear.main}</div></div>
+                  <div className='i2'>
+                    <div className='i3'>rear camera</div>
+                    <div className='i4'>{product.camera.rear.main}</div>
+                  </div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaMicrochip /></div>
-                  <div className='i2'><div className='i3'>ram</div>
-                    <div className='i4'>{product.ram}</div></div>
+                  <div className='i2'>
+                    <div className='i3'>ram</div>
+                    <div className='i4'>{product.ram}</div>
+                  </div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaMicrochip /></div>
-                  <div className='i2'> <div className='i3'>storage</div>
-                    <div className='i4'>{product.memory.rom}</div></div>
+                  <div className='i2'>
+                    <div className='i3'>storage</div>
+                    <div className='i4'>{product.memory.rom}</div>
+                  </div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaBatteryFull /></div>
-                  <div className='i2'><div className='i3'>battery</div>
-                    <div className='i4'>{product.battery.capacity}</div></div>
+                  <div className='i2'>
+                    <div className='i3'>battery</div>
+                    <div className='i4'>{product.battery.capacity}</div>
+                  </div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'> <FaMicrochip /></div>
@@ -85,7 +98,7 @@ const Fullview = () => {
           <div className='page2heading'>Summary</div>
           <div className='page2desc' >
             {
-              !desc ? (product.desc.substr(0, 500) + "...") : (product.desc)
+              !desc ? (product.desc.substr(0, 100) + "...") : (product.desc)
             }
             {
               !desc ? (<button onClick={fulldesc}>

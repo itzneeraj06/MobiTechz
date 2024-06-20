@@ -11,20 +11,19 @@
 @media (max-width:600px){
     
 .fullviewcontainer{
-    width: 90%;
+    width: 95%;
 }
 }
 .page1{
     width: 100%;
-    height: 60vh;
     background-color: aliceblue;
 }
 .fullviewtitle{
-    height: 10vh;
+
     display: flex;
     align-items: center;
     font-size: 30px;
-    padding-left: 5px;
+    padding: 20px 5px;
     border-bottom: 1px solid #8e8e8e;
 }
 .fullviewhome{
@@ -36,17 +35,21 @@
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    margin: auto;
+}
+.fullviewimg img{
+    width: 200px;
 }
 .fullviewspecs{
     width: 70%;
 }
 .fullviewpricebtn{
-    height: 15%;
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding:20px 5px;
     align-items:flex-end;
     border-bottom:1px solid #9b9b9b ;
+
 
 }
 .fullviewpricebtn button{
@@ -75,17 +78,20 @@
 .vsinner{
     width: 45%;
     display: flex;
+    align-items: center;
     margin: 10px;
 }
 .i1{
-    color: #252525;
+    color: #5e5e5e;
     display: flex;
     align-items: center;
     padding: 5px;
 }
-.i2{}
+.i2{
+    padding-left: 10px;
+}
 .i3{
-    color: #363636;
+    color: #5e5e5e;
     font-size: 15px;
 }
 .page2,.page3,.page4,.page5{
@@ -163,9 +169,10 @@
         height:50%;
         width: 90%;
     }
-    .fullviewspecs{
-        width: 60%;
+    .fullviewhome{
+        flex-direction: column;
     }
+    
     .fullviewpricebtn{
         flex-direction: column;
         align-items: flex-start;
@@ -173,12 +180,7 @@
         height: auto;
         padding: 10px;
     }
-    .viewspecs{
-        width: 80%;
-    }
-    .vsinner{
-        width: 90%;
-    }
+   
     .variantsbox{
         padding: 10px 10px;
         overflow:scroll ;
@@ -186,8 +188,13 @@
     .variantsbox p{
 
     }
-    .page1{
-        height: auto;
+    .fullviewspecs{
+        width: 100%;
     }
+    .vsinner{
+        width: 40%;
+    }
+  
+
 
 }
