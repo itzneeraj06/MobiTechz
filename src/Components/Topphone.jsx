@@ -1,5 +1,5 @@
 import React from 'react'
-import product1 from '../asset/product1.webp'
+// import product1 from '../asset/product1.webp'
 import './CSS/topphone.css'
 import { Link } from 'react-router-dom'
 
@@ -9,7 +9,7 @@ const Topphone = (props) => {
     <div >
       <div className='container'>
         <div className="img">
-          <img src={product1} alt="img not found" height={'120px'} />
+          <img src={props.img} alt="img not found" height={'120px'} />
         </div>
         <div className="heading">
           <p id='name'>{props.name}</p>

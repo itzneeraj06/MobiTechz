@@ -22,9 +22,9 @@ const Login = ({ login, setLogin }) => {
         <h3>Welcome Back</h3>
         <form className='l3' onSubmit={submithandle}>
           <label>Email Address</label>
-          <input type="email" name="email" placeholder='enter email address or phone number' required/><br />
+          <input type="email" name="email" placeholder='enter dummy data to login ex.a@a' required/><br />
           <label >Password</label>
-          <input type="password" name='password' placeholder='enter password here' required/>
+          <input type="password" name='password' placeholder='enter dummy password ex.a' required/>
 
           <button>Login </button>
         </form>

@@ -22,7 +22,7 @@ const ProductList = () => {
                     {
                         alldata.map((item, i) => {
                             if (item.brand === shopbybrand.brand) {
-                                return <Listview id={item.id} model={item.model} brand={item.brand} price={item.price} release={item.release} screen={item.screenSize} processor={item.processor} battery={item.battery} camera={item.camera}/>
+                                return <Listview id={item.id} model={item.model} brand={item.brand} price={item.price} release={item.release.date} screen={item.display.size} processor={item.platform.processor} battery={item.battery.capacity} camera={item.camera.rear.main} img={item.img}/>
                             } else {
                                 return null;
                             }

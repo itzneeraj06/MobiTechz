@@ -21,7 +21,7 @@ const Bestsmartphone = (props) => {
                     alldata.map((item,i)=>{
                         if(item.price<=props.pricemax&&item.price>props.pricemin)
                         {
-                            return <Topphone id={item.id} name={item.model} price={item.price}/>
+                            return <Topphone id={item.id} name={item.model} price={item.price} img={item.img}/>
                                 
                         }
                         else{return null;} 
@@ -29,7 +29,7 @@ const Bestsmartphone = (props) => {
                         )
                 }
             <div className='moree'>
-                <Link to='/Productdetails' className='styled-link' onClick={() => window.scrollTo(0, 0)}>View All</Link>
+                <Link to='/productdetails' className='styled-link' onClick={() => window.scrollTo(0, 0)}>View All</Link>
             </div>
  
 

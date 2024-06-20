@@ -21,7 +21,7 @@ const Home = () => {
       <News/>
       <Heading heading="Sale of the Day"/>
       <Imgbox img={img}/>
-      <Flagship heading='Flagship Phones'link='https://fdn.gsmarena.com/imgroot/reviews/24/samsung-galaxy-s24-ultra/-728x314/gsmarena_003.jpg' title='Samsung Galaxy S24 Ultra' id='1'/>
+      <Flagship heading='Flagship Phones'link='https://fdn.gsmarena.com/imgroot/reviews/24/samsung-galaxy-s24-ultra/-728x314/gsmarena_003.jpg' title='Samsung Galaxy S24 Ultra' id='24'/>
       {/* <Flagship heading='Gaming Phones'link='https://fdn.gsmarena.com/imgroot/reviews/23/asus-rog-phone-8-pro/-728x314/gsmarena_001.jpg' title='Asus ROG Phone 8 Pro' id='1'/> */}
       {/* <Flagship heading='Camera Phones'link='https://fdn.gsmarena.com/imgroot/reviews/24/xiaomi-14-ultra/-728x314/gsmarena_002.jpg' title='Xiaomi 13T Pro' id='1'/> */}
       <Heading heading="Trending on Youtube"/>

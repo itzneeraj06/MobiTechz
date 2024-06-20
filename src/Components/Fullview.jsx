@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './CSS/fullview.css'
-import img1 from '../asset/product1.webp';
+// import img1 from '../asset/product1.webp';
 import ecomm1 from '../asset/ecom1.webp';
 import ecomm2 from '../asset/ecom2.webp';
 import ecom3 from '../asset/ecom3.png';
@@ -12,6 +12,7 @@ const Fullview = () => {
   const { id } = useParams();//useParam use karke ko ko ui pr update kiya hai
   const product = alldata.find((e) => e.id === Number(id));//id ko product variable me store kiya hai 
   const [desc, setdesc] = useState(false);
+  console.log(product);
   const fulldesc = () => {
     setdesc(!desc);
   }
@@ -26,54 +27,54 @@ const Fullview = () => {
           </div>
           <div className='fullviewhome'>
             <div className="fullviewimg">
-              <img src={img1} alt="" />
+              <img src={product.img} alt="" />
             </div>
             <div className="fullviewspecs">
               <div className='fullviewpricebtn'>
                 <div>Check Prices</div>
-                <div>Rs.{product.price} <button >Go to Store</button></div> </div>
+                <div>Rs.{product.price} <a href="#buynow"><button>Go to Store</button></a></div> </div>
               <div className='keyspecs'>Key Specs</div>
               <div className="viewspecs">
                 <div className='vsinner'>
                   <div className='i1'><FaDesktop /></div>
                   <div className='i2'><div className='i3'>display</div>
 
-                    <div className='i4'>{product.screenSize}</div></div>
+                    <div className='i4'>{product.display.size}</div></div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaMicrochip /></div>
                   <div className='i2'> <div className='i3'>processor</div>
-                    <div className='i4'>{product.processor}</div></div>
+                    <div className='i4'>{product.platform.processor}</div></div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaCamera /></div>
                   <div className='i2'> <div className='i3'>front camera</div>
-                    <div className='i4'>undefined</div></div>
+                    <div className='i4'>{product.camera.front.px}</div></div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaCamera /></div>
                   <div className='i2'> <div className='i3'>rear camera</div>
-                    <div className='i4'>{product.camera}</div></div>
+                    <div className='i4'>{product.camera.rear.main}</div></div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaMicrochip /></div>
                   <div className='i2'><div className='i3'>ram</div>
-                    <div className='i4'>undefined</div></div>
+                    <div className='i4'>{product.ram}</div></div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaMicrochip /></div>
                   <div className='i2'> <div className='i3'>storage</div>
-                    <div className='i4'>undefined</div></div>
+                    <div className='i4'>{product.memory.rom}</div></div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'><FaBatteryFull /></div>
                   <div className='i2'><div className='i3'>battery</div>
-                    <div className='i4'>{product.battery}</div></div>
+                    <div className='i4'>{product.battery.capacity}</div></div>
                 </div>
                 <div className='vsinner'>
                   <div className='i1'> <FaMicrochip /></div>
                   <div className='i2'><div className='i3'>OS</div>
-                    <div className='i4'>Android</div></div>
+                    <div className='i4'>{product.platform.os}</div></div>
                 </div>
               </div>
             </div>
@@ -95,7 +96,7 @@ const Fullview = () => {
         </div>
         <div className="page3">
           <div className='page3heading'>Variants</div>
-          <div className='variantsbox'><p>4gb/64gb</p><p>6gb/64gb</p><p>6gb/128gb</p></div>
+          <div className='variantsbox' id='buynow'><p>4gb/64gb</p><p>6gb/64gb</p><p>6gb/128gb</p></div>
         </div>
         <div className="page4" >
           <div className='page4heading'>{product.model} price in india</div>
@@ -173,6 +174,7 @@ const Fullview = () => {
 
           </div>
         </div>
+
 
       </div>
     </div>

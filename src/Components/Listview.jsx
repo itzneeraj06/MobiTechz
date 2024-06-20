@@ -1,7 +1,7 @@
 import React from 'react'
 import './CSS/listview.css'
 import { Link } from 'react-router-dom'
-import img1 from "../asset/product1.webp"
+// import img1 from "../asset/product1.webp"
 import { FaCamera, FaMicrochip, FaDesktop, FaBatteryFull, FaArrowRight } from 'react-icons/fa';
 
 const Listview = (props) => {
@@ -11,7 +11,7 @@ const Listview = (props) => {
       <div className="l11">
         <div className='l111'>
           <div className="l1111">
-            <img src={img1} alt="aaaa" id='pimg' />
+            <img src={props.img} alt="aaaa" id='pimg' />
           </div>
           <div className='l1112'>
             +
