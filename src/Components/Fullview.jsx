@@ -12,7 +12,7 @@ const Fullview = () => {
   const { id } = useParams();//useParam use karke ko ko ui pr update kiya hai
   const product = alldata.find((e) => e.id === Number(id));//id ko product variable me store kiya hai 
   const [desc, setdesc] = useState(false);
-  console.log(product);
+  // console.log(product);
   const fulldesc = () => {
     setdesc(!desc);
   }
@@ -126,55 +126,54 @@ const Fullview = () => {
           <div className="fullspecs">
             <div className="general">
               <h3>General</h3>
-              <p>Brand :</p>
-              <p>Model :</p>
-              <p>Price :</p>
-              <p>Release Date :</p>
-              <p>Launched in india :</p>
-              <p>Form factor :</p>
-              <p>Dimension :</p>
-              <p>weight :</p>
-              <p>Battery :</p>
-              <p>Fast Charging :</p>
+              <p>Brand :{product.brand}</p>
+              <p>Model :{product.model}</p>
+              <p>Price :{product.price}</p>
+              <p>Release Date :{product.release.date}</p>
+              <p>Launched in india :{product.release.status}</p>
+              <p>Dimension : {product.body.dimension}</p>
+              <p>weight :{product.body.weight}</p>
+              <p>Battery :{product.battery.capacity}</p>
+              <p>Fast Charging :{product.battery.charging}</p>
               <p>Wireless Charging :</p>
-              <p>Colors :</p>
+              <p>Colors :{product.color}</p>
 
             </div>
 
             <div className="display">
               <h3>Display</h3>
-              <p>Refresh Rate :</p>
-              <p>Screen Size :</p>
-              <p>Touch Screen :</p>
+              <p>Refresh Rate : {product.display.type}</p>
+              <p>Screen Size : {product.display.size}</p>
+              <p>Touch Screen : </p>
               <p>Pixel Per inch (PPI) :</p>
             </div>
             <div className="hardware">
               <h3>Hardware</h3>
-              <p>Processor :</p>
-              <p>RAM :</p>
-              <p>Internal Storage :</p>
-              <p>Expandable Storage : </p>
+              <p>Processor : {product.platform.processor}</p>
+              <p>RAM : {product.ram}</p>
+              <p>Internal Storage : {product.memory.rom}</p>
+              <p>Expandable Storage : {product.memory.card_slot}</p>
             </div>
             <div className="camera">
               <h3>Camera</h3>
-              <p>rear camera :</p>
-              <p>no of rear camera :</p>
-              <p>front camera :</p>
+              <p>rear camera : {product.camera.rear.main}</p>
+              <p>no of rear camera : {product.camera.rear.no_camera}</p>
+              <p>front camera : {product.camera.front.px}</p>
             </div>
             <div className="software">
               <h3>Software</h3>
-              <p>OS :</p>
-              <p>Skin :</p>
+              <p>OS : {product.platform.os}</p>
+              <p>Skin : </p>
 
             </div>
             <div className="connectivity">
               <h3>Connectivity</h3>
-              <p>Wifi :</p>
-              <p>GPS :</p>
-              <p>Bluetooth :</p>
+              <p>Wifi : {product.wifi}</p>
+              <p>GPS : </p>
+              <p>Bluetooth : {product.bt}</p>
               <p>NFC :</p>
-              <p>Usb type-C :</p>
-              <p>headphones :</p>
+              <p>Usb type-C : {product.usb}</p>
+              <p>headphones : {product.jack}</p>
               <p>no of SIM's :</p>
             </div>
             <div className="sensor">

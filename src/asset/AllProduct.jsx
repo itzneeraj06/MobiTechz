@@ -897,7 +897,7 @@ let alldata = [
         "img": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-poco-x6-pro.jpg"
     }, {
         "id": 17,
-        "brand": "OnePlus",
+        "brand": "Oneplus",
         "model": "Nord CE 3 5G",
         "release": {
             "date": "2024-09-10",
@@ -948,7 +948,7 @@ let alldata = [
             "removable": "No"
         },
         "color": "Black, Blue, Silver",
-        "price": 29999,
+        "price": 18998,
         "desc": "The OnePlus Nord CE 3 5G features a Fluid AMOLED display, powerful Snapdragon 780G processor, and a versatile triple-camera setup, making it an excellent choice for users seeking a premium mid-range smartphone experience.",
         "img": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-nord-ce3-5g.jpg"
     }, {
@@ -1004,7 +1004,7 @@ let alldata = [
             "removable": "No"
         },
         "color": "Black, Blue, Silver",
-        "price": 21999,
+        "price": 16999,
         "desc": "The Xiaomi Redmi Note 13 offers a large IPS LCD display, powerful Snapdragon processor, and a high-resolution quad-camera setup, making it a great choice for users seeking a feature-packed mid-range smartphone.",
         "img": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-13-5g.jpg"
     }, {
@@ -1064,7 +1064,7 @@ let alldata = [
         "img": "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s24-ultra-5g-sm-s928-stylus.jpg"
     }, {
         "id": 19,
-        "brand": "OnePlus",
+        "brand": "Oneplus",
         "model": "12R",
         "release": {
             "date": "2024-11-20",
@@ -1454,15 +1454,577 @@ let alldata = [
         "price": 77999,
         "desc": "The Samsung Galaxy S20 Plus features a vibrant Dynamic AMOLED 2X display, powerful processor options, and a versatile triple-camera setup, making it a premium flagship smartphone with top-notch performance and photography capabilities.",
         "img": "https://www.91-img.com/pictures/137636-v3-samsung-galaxy-s20-plus-mobile-phone-medium-1.jpg?tr=q-80"
+    },
+    {
+        "id": 27,
+        "brand": "Apple",
+        "model": "iPhone 11",
+        "release": {
+            "date": "September 2019",
+            "status": "available"
+        },
+        "body": {
+            "dimension": "150.9 x 75.7 x 8.3mm",
+            "weight": "194g"
+        },
+        "display": {
+            "type": "Liquid Retina HD LCD",
+            "size": "6.1 inches",
+            "resolution": "828 x 1792 pixels",
+            "protection": "Scratch-resistant glass with oleophobic coating"
+        },
+        "platform": {
+            "version": "iOS 15",
+            "os": "iOS",
+            "processor": "Apple A13 Bionic chip",
+            "cores": "6 cores"
+        },
+        "ram": "4GB",
+        "memory": {
+            "card_slot": "no",
+            "rom": "64GB, 128GB, 256GB"
+        },
+        "camera": {
+            "rear": {
+                "main": "12 MP",
+                "px": "12 MP (wide), 12 MP (ultrawide)",
+                "no_camera": "2"
+            },
+            "front": {
+                "px": "12 MP"
+            }
+        },
+        "jack": "no",
+        "wifi": "Wi-Fi 6",
+        "bt": "Bluetooth 5.0",
+        "radio": "no",
+        "usb": "Lightning connector",
+        "sensors": "Face ID, accelerometer, gyro, proximity, compass",
+        "fingerprint": "no",
+        "battery": {
+            "type": "Non-removable Li-Ion",
+            "capacity": "3110mAh",
+            "charging": "18W fast charging, 15W Qi wireless charging",
+            "removable": "no"
+        },
+        "color": "Black, White, Green, Yellow, Purple, Red",
+        "price": 40000,
+        "desc": "The iPhone 11 features a 6.1-inch Liquid Retina HD display, a dual-camera system on the back (wide and ultrawide), a 12MP TrueDepth front camera, and the A13 Bionic chip. It runs iOS 15.",
+        "img": "https://i.gadgets360cdn.com/products/large/apple-iphone-11-406x800-1568197454.jpg?downsize=*:180"
+    },
+    {
+        "id": 28,
+        "brand": "Apple",
+        "model": "iPhone 12",
+        "release": {
+            "date": "October 2020",
+            "status": "available"
+        },
+        "body": {
+            "dimension": "146.7 x 71.5 x 7.4mm",
+            "weight": "174g"
+        },
+        "display": {
+            "type": "Super Retina XDR OLED",
+            "size": "6.1 inches",
+            "resolution": "2532 x 1170 pixels",
+            "protection": "Ceramic Shield front, Corning Gorilla Glass back"
+        },
+        "platform": {
+            "version": "iOS 15",
+            "os": "iOS",
+            "processor": "Apple A14 Bionic chip",
+            "cores": "6 cores"
+        },
+        "ram": "4GB",
+        "memory": {
+            "card_slot": "no",
+            "rom": "64GB, 128GB, 256GB"
+        },
+        "camera": {
+            "rear": {
+                "main": "12 MP",
+                "px": "12 MP (wide), 12 MP (ultrawide)",
+                "no_camera": "2"
+            },
+            "front": {
+                "px": "12 MP"
+            }
+        },
+        "jack": "no",
+        "wifi": "Wi-Fi 6",
+        "bt": "Bluetooth 5.0",
+        "radio": "no",
+        "usb": "Lightning connector",
+        "sensors": "Face ID, accelerometer, gyro, proximity, compass",
+        "fingerprint": "no",
+        "battery": {
+            "type": "Non-removable Li-Ion",
+            "capacity": "2815mAh",
+            "charging": "20W fast charging, 15W Qi wireless charging",
+            "removable": "no"
+        },
+        "color": "Black, White, Red, Green, Blue, Purple",
+        "price": 45000,
+        "desc": "The iPhone 12 features a 6.1-inch Super Retina XDR OLED display, a dual-camera system on the back (wide and ultrawide), a 12MP TrueDepth front camera, and the A14 Bionic chip. It runs iOS 15.",
+        "img": "https://i.gadgets360cdn.com/products/large/iphone-12-all-404x800-1602616616.jpg?downsize=*:180"
+    },
+    {
+        "id": 29,
+        "brand": "Apple",
+        "model": "iPhone 13",
+        "release": {
+            "date": "September 2021",
+            "status": "available"
+        },
+        "body": {
+            "dimension": "146.7 x 71.5 x 7.4mm",
+            "weight": "174g"
+        },
+        "display": {
+            "type": "Super Retina XDR OLED",
+            "size": "6.1 inches",
+            "resolution": "2532 x 1170 pixels",
+            "protection": "Ceramic Shield front, Corning Gorilla Glass back"
+        },
+        "platform": {
+            "version": "iOS 15 (upgradeable to iOS 16)",
+            "os": "iOS",
+            "processor": "Apple A15 Bionic chip",
+            "cores": "6 cores"
+        },
+        "ram": "4GB",
+        "memory": {
+            "card_slot": "no",
+            "rom": "128GB, 256GB, 512GB"
+        },
+        "camera": {
+            "rear": {
+                "main": "12 MP",
+                "px": "12 MP (wide) with sensor-shift stabilization, 12 MP (ultrawide)",
+                "no_camera": "2"
+            },
+            "front": {
+                "px": "12 MP"
+            }
+        },
+        "jack": "no",
+        "wifi": "Wi-Fi 6",
+        "bt": "Bluetooth 5.0",
+        "radio": "no",
+        "usb": "Lightning connector",
+        "sensors": "Face ID, accelerometer, gyro, proximity, compass",
+        "fingerprint": "no",
+        "battery": {
+            "type": "Non-removable Li-Ion",
+            "capacity": "3240mAh",
+            "charging": "20W fast charging, 15W Qi wireless charging",
+            "removable": "no"
+        },
+        "color": "Midnight, Starlight, Blue, Pink, Green, Red",
+        "price": 49999,
+        "desc": "The iPhone 13 features a 6.1-inch Super Retina XDR OLED display, a dual-camera system on the back (wide with sensor-shift stabilization and ultrawide), a 12MP TrueDepth front camera, and the A15 Bionic chip. It runs iOS 15 and can be upgraded to iOS 16. It has a slightly larger battery capacity compared to iPhone 12.",
+        "img": "https://i.gadgets360cdn.com/products/large/iphone-13-1-396x800-1631648728.jpg?downsize=*:180"
+    },
+    {
+        "id": 30,
+        "brand": "Apple",
+        "model": "iPhone 14",
+        "release": {
+            "date": "September 2023",
+            "status": "available"
+        },
+        "body": {
+            "dimension": "146.1 x 71.8 x 7.8mm",
+            "weight": "173g"
+        },
+        "display": {
+            "type": "Super Retina XDR OLED",
+            "size": "6.1 inches",
+            "resolution": "2532 x 1170 pixels",
+            "protection": "Ceramic Shield front, Corning Gorilla Glass back"
+        },
+        "platform": {
+            "version": "iOS 16",
+            "os": "iOS",
+            "processor": "Apple A15 Bionic chip",  // No confirmation yet on a new chip
+            "cores": "6 cores"  // No confirmation yet on core count
+        },
+        "ram": "6GB",  // Increased from previous models based on some reports
+        "memory": {
+            "card_slot": "no",
+            "rom": "128GB, 256GB, 512GB"
+        },
+        "camera": {
+            "rear": {
+                "main": "12 MP",
+                "px": "12 MP (wide) with sensor-shift stabilization, 12 MP (ultrawide)",
+                "no_camera": "2"
+            },
+            "front": {
+                "px": "12 MP"
+            }
+        },
+        "jack": "no",
+        "wifi": "Wi-Fi 6E",  // Potential upgrade based on leaks
+        "bt": "Bluetooth 5.3",  // Potential upgrade based on leaks
+        "radio": "no",
+        "usb": "Lightning connector",
+        "sensors": "Face ID, accelerometer, gyro, proximity, compass",
+        "fingerprint": "no",
+        "battery": {
+            "type": "Non-removable Li-Ion",
+            "capacity": "3279mAh",  // Speculative based on rumors
+            "charging": "20W fast charging, 15W Qi wireless charging",
+            "removable": "no"
+        },
+        "color": "Midnight, Starlight, Blue, Purple, Red",  // No official confirmation yet
+        "price": 55000,
+        "desc": "The iPhone 14 features a 6.1-inch Super Retina XDR OLED display, a dual-camera system on the back (wide with sensor-shift stabilization and ultrawide), a 12MP TrueDepth front camera, and potentially the same A15 Bionic chip as iPhone 13. It runs iOS 16. There might be upgrades to Wi-Fi and Bluetooth based on leaks, but official confirmation is pending. The battery capacity and color options are also based on rumors.",
+        "img": "https://i.gadgets360cdn.com/products/large/iphone-14-db-400x800-1662580923.jpg?downsize=*:180"
+    },
+    {
+        "id": 31,
+        "brand": "Apple",
+        "model": "iPhone 13 Pro",
+        "release": {
+            "date": "September 2021",
+            "status": "available"
+        },
+        "body": {
+            "dimension": "146.7 x 71.5 x 7.65mm",
+            "weight": "204g"
+        },
+        "display": {
+            "type": "Super Retina XDR OLED",
+            "size": "6.1 inches",
+            "resolution": "2532 x 1170 pixels",
+            "protection": "Ceramic Shield front, Corning Gorilla Glass back"
+        },
+        "platform": {
+            "version": "iOS 15 (upgradeable to iOS 16)",
+            "os": "iOS",
+            "processor": "Apple A15 Bionic chip",
+            "cores": "6 cores"
+        },
+        "ram": "6GB",
+        "memory": {
+            "card_slot": "no",
+            "rom": "128GB, 256GB, 512GB, 1TB"  // 1TB storage option added compared to iPhone 13
+        },
+        "camera": {
+            "rear": {
+                "main": "12 MP",
+                "px": "12 MP (wide), 12 MP (telephoto with 3x optical zoom), 12 MP (ultrawide)",
+                "no_camera": "3"
+            },
+            "front": {
+                "px": "12 MP"
+            }
+        },
+        "jack": "no",
+        "wifi": "Wi-Fi 6",
+        "bt": "Bluetooth 5.0",
+        "radio": "no",
+        "usb": "Lightning connector",
+        "sensors": "Face ID, LiDAR scanner, accelerometer, gyro, proximity, compass",
+        "fingerprint": "no",
+        "battery": {
+            "type": "Non-removable Li-Ion",
+            "capacity": "3095mAh",  // mAh value from Apple
+            "charging": "20W fast charging, 15W Qi wireless charging",
+            "removable": "no"
+        },
+        "color": "Midnight, Starlight, Sierra Blue, Alpine Green, Pink",  // Additional color options compared to iPhone 13
+        "price": 75000,  // Adjust price based on your region
+        "desc": "The iPhone 13 Pro features a 6.1-inch Super Retina XDR OLED display, a triple-lens rear camera system (wide, telephoto with 3x optical zoom, ultrawide), a 12MP TrueDepth front camera, and the A15 Bionic chip. It runs iOS 15 and can be upgraded to iOS 16. It has a LiDAR scanner for improved depth sensing and additional color options compared to iPhone 13.",
+        "img": "https://i.gadgets360cdn.com/products/large/iphone-13-pro-400x800-1631648140.jpg?downsize=*:180" // You'll need to find the image URL yourself
+    },
+    {
+        "id": 32,
+        "brand": "Apple",
+        "model": "iPhone 13 mini",
+        "release": {
+            "date": "September 2021",
+            "status": "available"
+        },
+        "body": {
+            "dimension": "131.5 x 64.2 x 7.65mm",
+            "weight": "140g"
+        },
+        "display": {
+            "type": "Super Retina XDR OLED",
+            "size": "5.4 inches",
+            "resolution": "2340 x 1080 pixels",
+            "protection": "Ceramic Shield front, Corning Gorilla Glass back"
+        },
+        "platform": {
+            "version": "iOS 15 (upgradeable to iOS 16)",
+            "os": "iOS",
+            "processor": "Apple A15 Bionic chip",
+            "cores": "6 cores"
+        },
+        "ram": "4GB",
+        "memory": {
+            "card_slot": "no",
+            "rom": "128GB, 256GB, 512GB"
+        },
+        "camera": {
+            "rear": {
+                "main": "12 MP",
+                "px": "12 MP (wide) with sensor-shift stabilization, 12 MP (ultrawide)",
+                "no_camera": "2"
+            },
+            "front": {
+                "px": "12 MP"
+            }
+        },
+        "jack": "no",
+        "wifi": "Wi-Fi 6",
+        "bt": "Bluetooth 5.0",
+        "radio": "no",
+        "usb": "Lightning connector",
+        "sensors": "Face ID, accelerometer, gyro, proximity, compass",
+        "fingerprint": "no",
+        "battery": {
+            "type": "Non-removable Li-Ion",
+            "capacity": "2438mAh",  // mAh value from Apple
+            "charging": "20W fast charging, 15W Qi wireless charging",
+            "removable": "no"
+        },
+        "color": "Midnight, Starlight, Blue, Pink, Green, Red",
+        "price": 55000,  // Adjust price based on your region
+        "desc": "The iPhone 13 mini features a 5.4-inch Super Retina XDR OLED display, a dual-camera system on the back (wide with sensor-shift stabilization and ultrawide), a 12MP TrueDepth front camera, and the A15 Bionic chip. It runs iOS 15 and can be upgraded to iOS 16. It's a more compact version of the iPhone 13 with a smaller display and battery, but it offers similar performance and camera capabilities.",
+        "img": "https://i.gadgets360cdn.com/products/large/iphone-13-mini-1-396x800-1631648715.jpg?downsize=*:180" // You'll need to find the image URL yourself
+    },
+    {
+        "id": 33,
+        "brand": "Apple",
+        "model": "iPhone 14 Pro",
+        "release": {
+            "date": "September 2023",
+            "status": "available"
+        },
+        "body": {
+            "dimension": "147.8 x 71.5 x 7.81mm",
+            "weight": "209g"  // Placeholder based on iPhone 13 Pro weight
+        },
+        "display": {
+            "type": "Super Retina XDR OLED",
+            "size": "6.1 inches",
+            "resolution": "2532 x 1170 pixels",  // Likely the same as iPhone 14
+            "protection": "Ceramic Shield front, Corning Gorilla Glass back"
+        },
+        "platform": {
+            "version": "iOS 16",
+            "os": "iOS",
+            "processor": "Apple A16 Bionic (rumored)",  // To be confirmed
+            "cores": "Unknown (possibly same or more cores than A15 Bionic)"
+        },
+        "ram": "6GB",  // Same as iPhone 14 (based on leaks)
+        "memory": {
+            "card_slot": "no",
+            "rom": "128GB, 256GB, 512GB, 1TB"  // Same options as iPhone 13 Pro
+        },
+        "camera": {
+            "rear": {
+                "main": "48 MP (rumored)",  // Upgrade from iPhone 13 Pro
+                "px": "48 MP (wide) with sensor-shift stabilization, 12 MP (telephoto with possibly improved zoom), 12 MP (ultrawide)",  // Specs not confirmed
+                "no_camera": "3"
+            },
+            "front": {
+                "px": "12 MP (improved sensor possible based on rumors)"
+            }
+        },
+        "jack": "no",
+        "wifi": "Wi-Fi 6E (based on leaks)",  // To be confirmed
+        "bt": "Bluetooth 5.3 (based on leaks)",  // To be confirmed
+        "radio": "no",
+        "usb": "Lightning connector",
+        "sensors": "Face ID, LiDAR scanner, accelerometer, gyro, proximity, compass",
+        "fingerprint": "no",
+        "battery": {
+            "type": "Non-removable Li-Ion",
+            "capacity": "3200mAh (placeholder based on rumors)",  // To be confirmed
+            "charging": "20W fast charging, 15W Qi wireless charging",  // No confirmation on improvements
+            "removable": "no"
+        },
+        "color": "Midnight, Starlight, Sierra Blue, Alpine Green, Deep Purple",  // Possible new color (Deep Purple)
+        "price": 85000,  // Adjust price based on your region
+        "desc": "The iPhone 14 Pro features a 6.1-inch Super Retina XDR OLED display, a triple-lens rear camera system (rumored to be upgraded to a 48MP main sensor), a 12MP TrueDepth front camera, and potentially the new A16 Bionic chip. It runs iOS 16. It might have an improved refresh rate display, better camera system, and possibly upgrades to Wi-Fi and Bluetooth based on leaks. Some details like battery capacity and exact camera specifications are not confirmed yet.",
+        "img": "https://i.gadgets360cdn.com/products/large/iphone-14-pro-apple-583x800-1662583181.jpg?downsize=*:180s" // You'll need to find the image URL yourself
+    },
+    {
+        "id": 34,
+        "brand": "Realme",
+        "model": "Narzo 70 Pro",
+        "release": {
+            "date": "June 10, 2024",
+            "status": "available"
+        },
+        "body": {
+            "dimension": "164.13 x 74.53 x 7.75mm",
+            "weight": "195.00 grams"
+        },
+        "display": {
+            "type": "120Hz Ultra Smooth AMOLED Display",
+            "size": "6.67 inches",
+            "resolution": "2400 x 1080 pixels",
+            "protection": "Expected to have Gorilla Glass"  // Realme website doesn't explicitly mention protection type
+        },
+        "platform": {
+            "version": "Android 14",
+            "os": "Android",
+            "processor": "MediaTek Dimensity 7050 5G",
+            "cores": "Unknown (possibly same or more cores than A15 Bionic)"  // Placeholder until official confirmation
+        },
+        "ram": "8GB",
+        "memory": {
+            "card_slot": "No",
+            "rom": "128GB or 256GB"
+        },
+        "camera": {
+            "rear": {
+                "main": "50MP",
+                "px": "50 MP (main), 8 MP (wide), 2 MP (macro)",
+                "no_camera": "3"
+            },
+            "front": {
+                "px": "16MP"
+            }
+        },
+        "jack": "No headphone jack expected",
+        "wifi": "Wi-Fi 6 (or newer based on leaks)",  // Not officially confirmed yet
+        "bt": "Bluetooth 5.2 (or newer version based on leaks)",  // Not officially confirmed yet
+        "radio": "No FM radio expected",
+        "usb": "USB Type-C",
+        "sensors": "In-display fingerprint sensor, usual motion sensors (accelerometer, gyro, etc.)",
+        "fingerprint": "In-display",
+        "battery": {
+            "type": "Non-removable Li-Ion",
+            "capacity": "5000mAh",
+            "charging": "67W SUPERVOOC Charge",
+            "removable": "No"
+        },
+        "color": "Glass Green, Black",
+        "price": 19999,
+        "desc": "The Realme Narzo 70 Pro features a 6.67-inch 120Hz AMOLED display, a triple-lens rear camera system (50MP main, 8MP wide, 2MP macro), a 16MP front-facing camera, and the MediaTek Dimensity 7050 5G processor. It runs Android 14 and supports 67W fast charging.  Some details like exact Wi-Fi and Bluetooth versions are based on leaks and not officially confirmed.",
+        "img": "https://www.91-img.com/pictures/151015-v5-realme-narzo-70-pro-mobile-phone-medium-1.jpg?tr=q-80" // You'll need to find the image URL yourself
+    },
+    {
+        "id": 35,
+        "brand": "Motorola",
+        "model": "Moto G54",
+        "release": {
+            "date": "September 5, 2023 (announced), available since then",  // Based on availability details
+            "status": "available"
+        },
+        "body": {
+            "dimension": "161.6 x 73.8 x 8.9 mm (6.36 x 2.91 x 0.35 in)",
+            "weight": "192 g (6.77 oz)"
+        },
+        "display": {
+            "type": "IPS LCD",
+            "size": "6.5 inches",
+            "resolution": "1080 x 2400 pixels"
+        },
+        "platform": {
+            "version": "Android 13 (upgradable to Android 14 expected)", // Upgradability based on Motorola's usual update policy
+            "os": "Android",
+            "processor": "MediaTek Dimensity 7020",
+            "cores": "8"
+        },
+        "ram": {
+            "options": ["8GB", "12GB"]
+        },
+        "memory": {
+            "card_slot": "microSD card slot (up to 1 TB)",
+            "rom": "128GB or 256GB"
+        },
+        "camera": {
+            "rear": {
+                "main": "50MP",
+                "px": "50MP (main) with OIS (Optical Image Stabilization), additional sensor(s) unconfirmed",
+                "no_camera": "Possibly 1 or more (details unclear)" // Based on lack of confirmation on additional cameras
+            },
+            "front": {
+                "px": "16MP"
+            }
+        },
+        "jack": "3.5mm headphone jack",
+        "wifi": "Wi-Fi 5",  // Based on the absence of confirmation of newer Wi-Fi versions
+        "bt": "Bluetooth 5.1",  // Based on the absence of confirmation of newer Bluetooth versions
+        "radio": "FM radio",
+        "usb": "USB Type-C",
+        "sensors": "Fingerprint sensor (rear-mounted), accelerometer, gyroscope, proximity",
+        "battery": {
+            "type": "Non-removable Li-Ion",
+            "capacity": "6000mAh",
+            "charging": "30W TurboPower charging",
+            "removable": "No"
+        },
+        "color": "Mint Green, Pearl Blue",  // Based on Motorola website
+        "price": 15890,
+        "desc": "The Motorola Moto G54 features a 6.5-inch IPS LCD display, a 50MP rear camera (with OIS) and an unspecified secondary camera (or cameras), a 16MP front-facing camera, the MediaTek Dimensity 7020 processor, and a 6000mAh battery with 30W fast charging. It runs Android 13 and is expected to be upgradeable to Android 14. It has a microSD card slot for expandable storage and a headphone jack.",
+        "img": "https://www.91-img.com/pictures/150941-v4-moto-g54-mobile-phone-medium-1.jpg?tr=q-80" // You'll need to find the image URL yourself
+    },
+    {
+        "id": 36,
+        "brand": "Realme",
+        "model": "P1 Pro 5G",
+        "release": {
+            "date": "June 2024 (exact date not confirmed yet)",
+            "status": "available (expected)"
+        },
+        "body": {
+            "dimension": "160.2 x 73.3 x 8.7mm (estimated based on leaks)",  // Placeholder until official dimensions are confirmed
+            "weight": "184g (estimated based on leaks)"  // Placeholder until official weight is confirmed
+        },
+        "display": {
+            "type": "Curved Vision Display",  // Based on Realme website description
+            "size": "6.7 inches",
+            "resolution": "1080 x 2412 pixels (FHD+)",
+            "protection": "Expected to have Gorilla Glass or similar protection (not officially confirmed yet)"
+        },
+        "platform": {
+            "version": "Android 14",  // Based on most recent Realme phones
+            "os": "Android",
+            "processor": "Qualcomm Snapdragon 6 Gen 1",
+            "cores": "8"
+        },
+        "ram": "8GB",  // Based on leaks and rumors
+        "memory": {
+            "card_slot": "Unknown (no confirmation on microSD card slot yet)",
+            "rom": "128GB or 256GB"
+        },
+        "camera": {
+            "rear": {
+                "main": "50MP (expected to be Sony IMX766 sensor based on leaks)",  // Sensor details not confirmed yet
+                "px": "50MP (main) with OIS (Optical Image Stabilization), 8MP (ultrawide) based on leaks",  // Additional camera details not confirmed
+                "no_camera": "2 (confirmed) - more details awaited"
+            },
+            "front": {
+                "px": "16MP"
+            }
+        },
+        "jack": "No confirmation on headphone jack yet",
+        "wifi": "Wi-Fi 6 (or newer based on leaks)",  // Not officially confirmed yet
+        "bt": "Bluetooth 5.2 (or newer version based on leaks)",  // Not officially confirmed yet
+        "radio": "Unknown (no confirmation on FM radio yet)",
+        "usb": "USB Type-C",
+        "sensors": "In-display fingerprint sensor (expected), usual motion sensors (accelerometer, gyroscope, etc.)",
+        "fingerprint": "In-display (expected)",
+        "battery": {
+            "type": "Non-removable Li-Ion",
+            "capacity": "5000mAh (expected based on leaks)",  // Not officially confirmed yet
+            "charging": "45W SUPERVOOC Charge (expected based on leaks)",  // Not officially confirmed yet
+            "removable": "No"
+        },
+        "color": "Parrot Blue, Phoenix Red (based on leaks)",  // Color options might vary
+        "price": 19509,
+        "desc": "The Realme P1 Pro 5G is an upcoming phone expected to be released in June 2024 (exact date not confirmed yet). It boasts a 6.7-inch curved display, a 50MP rear camera (expected to be Sony IMX766 sensor) with OIS, and a Qualcomm Snapdragon 6 Gen 1 processor. It likely runs Android 14 and supports fast charging.  Some details like display protection, storage options, exact camera specifications, headphone jack, and battery capacity are based on leaks and rumors and not officially confirmed yet.",
+        "img": "https://www.91-img.com/pictures/161425-v4-realme-p1-pro-mobile-phone-medium-1.jpg?tr=q-80" // You'll need to find the image URL yourself
     }
-
-
-
-
-
-
-
-
 
 ]
 export default alldata;

@@ -13,13 +13,13 @@ import { ToastContainer } from 'react-toastify';
 
 function App() {
   const [login, setLogin] = useState(false);
-  console.log(login);
+  // console.log(login);
   return (
     <div>
       <Navbar login={login} setLogin={setLogin} />
       <Routes>
 
-        <Route path='/' element={<Home/>} />
+        <Route path='/' element={<Home />} />
         <Route path="/shopbyprice/:price" element={<PrivateRoute login={login}><Productdetail /></PrivateRoute>} />
         <Route path="/Fullview" element={<PrivateRoute login={login}><p>select a product</p></PrivateRoute>} />
         <Route path="/Fullview/:id" element={<PrivateRoute login={login}><Fullview /></PrivateRoute>} />
@@ -27,7 +27,7 @@ function App() {
         <Route path="/ShopbyBrand/:brand" element={<PrivateRoute login={login}><ProductList /></PrivateRoute>} />
         <Route path='/Login' element={<Login login={login} setLogin={setLogin} />} />
         <Route path='/signup' element={<Signup setLogin={setLogin} />} />
-        
+
       </Routes >
       <ToastContainer
         position="top-center"
@@ -40,8 +40,6 @@ function App() {
         draggable
         pauseOnHover
         theme="light" />
-
-
     </div>
 
   );

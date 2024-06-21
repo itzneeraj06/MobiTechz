@@ -10,7 +10,7 @@ const Login = ({ login, setLogin }) => {
   const submithandle = (e) => {
     e.preventDefault();
     setLogin(true);
-    console.log(login);
+    // console.log(login);
     navigate("/");
     toast.success("Login Successful");
 
