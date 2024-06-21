@@ -18,26 +18,21 @@
     width: 60%;
 }
 
-.header1 ul :first-child {
-    color: #000;
-    border-bottom: 2px solid rgb(0, 208, 255);
-}
-
-.header1 ul li:first-child:hover {
-    color: #000;
-}
-
 .header1 ul li {
     padding: 15px;
     display: flex;
     cursor: pointer;
     font-size: 14px;
-    color: #5e5e5e;
     font-weight: 600;
 }
 
 .header1 ul li:hover {
-    color: #434343;
+    color: #643f3f;
+}
+
+.borderbottom {
+    color: #985252;
+    border-bottom: 2px solid rgb(0, 208, 255);
 }
 
 /* Responsive styles */

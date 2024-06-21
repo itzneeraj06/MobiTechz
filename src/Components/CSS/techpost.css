@@ -1,0 +1,58 @@
+.techbox{
+    width: 45%;
+    margin: 10px auto;
+    box-shadow: 2px 2px 15px #838383;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#tech1{
+    font-weight: 600;
+    margin: 0;
+    padding: 10px 0px;
+}
+#tech2{
+    margin: 0;
+    padding: 5px 0px;
+    font-weight: 600;
+    font-size: 25px;
+}
+#tech3{
+    margin: 0;
+    padding: 10px 0px;
+    letter-spacing: 1px;
+
+}
+#tech4{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    border-radius:5px;
+}
+#tech4 img{
+    height:350px;
+    border-radius:5px;
+}
+@media (max-width:770px)
+{
+    .techbox{
+        width: 70%;
+    }
+}
+@media (max-width:450px)
+{
+    .techbox{
+        width: 85%;
+    }
+    #tech2{
+        font-size: 20px;
+    }
+    #tech3{
+        font-size: 10px;
+        padding: 0px;
+    }
+    #tech4 img{
+        display: none;
+    }
+    
+}
